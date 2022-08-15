@@ -1,0 +1,22 @@
+{
+    "table":[
+        {
+            "id": 10001,
+            "rarity": "r",
+            "imglink": "/img/chara-icons/icon_10001_0.png",
+            "nameEN": "Centaur Warrior",
+            "text": "20％の確率で攻撃力が2倍\r\n移動中の速度が２倍"
+        },
+        {
+            "id": 10003,
+            "rarity": "sr",
+            "imglink": "/img/chara-icons/icon_10001_0.png",
+            "kana": "",
+            "text": "20％の確率で攻撃力が2倍\r\nコストが-1"
+        }
+
+    ]
+        
+     
+    
+}

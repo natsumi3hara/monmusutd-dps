@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    text-align: left;
+}
+
+.nav-link {
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav-menu {
+    width: 100%;
+    background-color: #b4b4b4;
+    padding-left: 10px;
+}
+
+.navbar{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+#chara-info{
+    display: none;
+}
+
+.chara-cell{
+    width: 20%;
+}
+.charimg{
+    width: 100%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+#chara-table-common{
+    background-color: #c0c0c0;
+}
+#chara-table-rare{
+    background-color: #87ceeb;
+}
+#chara-table-epic{
+    background-color: #ef80ef;
+}
+#chara-table-legend{
+    background-color: #efdfb0;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+.selector{
+    cursor:pointer;
+}
