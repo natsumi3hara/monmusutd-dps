@@ -6,7 +6,7 @@ function charaselected(charaId,imgsrc) {
     let z = document.getElementById("calc-chara-id");
     z.style.display = "none";
     let calcImage = imgsrc;
-    document.getElementById("calc-picture").innerHTML = "<img class='charimg' src="+calcImage+"/>"
+    document.getElementById("calc-picture").innerHTML = "<img class='charimg' src="+calcImage+">"
     let abilityIndex = abilityData.table.findIndex(object => {return object.id === charaId})
     document.getElementById("calc-race-trait").innerHTML = abilityData.table[abilityIndex].text
     document.getElementById("calc-chara-id").innerHTML = charaId
