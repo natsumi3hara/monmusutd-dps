@@ -59,3 +59,14 @@ th, td{
 .selector{
     cursor:pointer;
 }
+
+#calc-picture{
+    width: 20%;
+}
+
+.calc-chara-info{
+    width: 40%;
+    max-height: 100%;
+    font-size:x-large;
+    vertical-align:top;
+}
