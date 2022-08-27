@@ -206,13 +206,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "盗賊のナイフ",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "1501"
 			},
 			"Item2": {
 				"dropName": "ダテ眼鏡",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "9501"
 			},
 			"Item3": {
@@ -241,13 +241,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "古式短銃",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "2101"
 			},
 			"Item2": {
 				"dropName": "鉄の鎧",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "8301"
 			},
 			"Item3": {
@@ -276,13 +276,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "修行者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "3201"
 			},
 			"Item2": {
 				"dropName": "銀の指輪",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "9201"
 			},
 			"Item3": {
@@ -311,13 +311,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "尖鋭な鉄槍",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "1101"
 			},
 			"Item2": {
 				"dropName": "厚革の手袋",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "9001"
 			},
 			"Item3": {
@@ -346,13 +346,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "鉄の大槌",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "1401"
 			},
 			"Item2": {
 				"dropName": "村人の服",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "8401"
 			},
 			"Item3": {
@@ -381,13 +381,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "魔術師の杖",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "3001"
 			},
 			"Item2": {
 				"dropName": "戦士の兜",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "8101"
 			},
 			"Item3": {
@@ -416,13 +416,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "霊木の枝",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "3401"
 			},
 			"Item2": {
 				"dropName": "弓使いの帽子",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "8201"
 			},
 			"Item3": {
@@ -451,13 +451,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "狩人の弓",
 				"dropCount": 1,
-				"dropProbability": 20,
+				"dropProbability": 26,
 				"dropID": "2001"
 			},
 			"Item2": {
 				"dropName": "銅の腕輪",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 38,
 				"dropID": "9401"
 			},
 			"Item3": {
@@ -784,13 +784,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "巡礼者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "3202"
 			},
 			"Item2": {
 				"dropName": "ナイトシールド",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "8002"
 			},
 			"Item3": {
@@ -819,13 +819,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "生命のオーブ",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "3302"
 			},
 			"Item2": {
 				"dropName": "騎士の兜",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "8102"
 			},
 			"Item3": {
@@ -854,13 +854,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "アサシンダガー",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "1502"
 			},
 			"Item2": {
 				"dropName": "邪視除けのお守り",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "9302"
 			},
 			"Item3": {
@@ -889,13 +889,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "精霊樹の枝",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "3402"
 			},
 			"Item2": {
 				"dropName": "ガンナーハット",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "8202"
 			},
 			"Item3": {
@@ -924,13 +924,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "三叉戟",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "1102"
 			},
 			"Item2": {
 				"dropName": "戦士の手袋",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "9002"
 			},
 			"Item3": {
@@ -959,13 +959,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "凶刃の戦斧",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "1002"
 			},
 			"Item2": {
 				"dropName": "ミスリルアーマー",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "8302"
 			},
 			"Item3": {
@@ -994,13 +994,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "ナイトソード",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "1302"
 			},
 			"Item2": {
 				"dropName": "魔法の腕輪",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "9402"
 			},
 			"Item3": {
@@ -1029,13 +1029,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "巨鋼の戦槌",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 18,
 				"dropID": "1402"
 			},
 			"Item2": {
 				"dropName": "商人の服",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 30,
 				"dropID": "8402"
 			},
 			"Item3": {
@@ -1642,13 +1642,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "聖騎士の兜",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "8103"
 			},
 			"Item2": {
 				"dropName": "神々の祝福のお守り",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9303"
 			},
 			"Item3": {
@@ -1683,7 +1683,7 @@ var dropData = {
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9503"
 			},
 			"Item3": {
@@ -1712,13 +1712,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "カウボーイハット",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "8203"
 			},
 			"Item2": {
 				"dropName": "聖騎士の手袋",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9003"
 			},
 			"Item3": {
@@ -1753,7 +1753,7 @@ var dropData = {
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9203"
 			},
 			"Item3": {
@@ -1782,13 +1782,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "司祭の服",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "8403"
 			},
 			"Item2": {
 				"dropName": "聖騎士の大盾",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "8003"
 			},
 			"Item3": {
@@ -1823,7 +1823,7 @@ var dropData = {
 			"Item2": {
 				"dropName": "栄光の腕輪",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9403"
 			},
 			"Item3": {
@@ -1852,13 +1852,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "ドラゴンアーマー",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "8303"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9503"
 			},
 			"Item3": {
@@ -1893,7 +1893,7 @@ var dropData = {
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 25,
+				"dropProbability": 26,
 				"dropID": "9203"
 			},
 			"Item3": {
@@ -2977,6 +2977,10 @@ var dropData = {
 		"drops": {}
 	},
 	"56005:プレミアム6": {
+		"stamina": 1,
+		"drops": {}
+	},
+	"56006:プレミアム7": {
 		"stamina": 1,
 		"drops": {}
 	},
@@ -4524,13 +4528,13 @@ var dropData = {
 			"Item1": {
 				"dropName": "一流術師の杖",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 24,
 				"dropID": "3002"
 			},
 			"Item2": {
 				"dropName": "ミスリルアーマー",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 39,
 				"dropID": "8302"
 			}
 		}
@@ -4541,14 +4545,99 @@ var dropData = {
 			"Item1": {
 				"dropName": "三叉戟",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 24,
 				"dropID": "1102"
 			},
 			"Item2": {
 				"dropName": "戦士の手袋",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 39,
 				"dropID": "9002"
+			}
+		}
+	},
+	"70154:E-5 海賊たちのバルカローラ": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "巡礼者の錫杖",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "3202"
+			},
+			"Item2": {
+				"dropName": "騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8102"
+			}
+		}
+	},
+	"70155:E-6 バンデッドファンタジア": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "邪視除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9302"
+			},
+			"Item2": {
+				"dropName": "商人の服",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8402"
+			}
+		}
+	},
+	"70156:E-7 ティア・フィナーレ": {
+		"stamina": 16,
+		"drops": {
+			"Item1": {
+				"dropName": "エレガントフレーム",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "9503"
+			},
+			"Item2": {
+				"dropName": "カウボーイハット",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8203"
+			}
+		}
+	},
+	"70162:EX3 海賊たちのバルカローラ": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "賢者のハープ",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "3603"
+			},
+			"Item2": {
+				"dropName": "槍斧・ハルバード",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1103"
+			}
+		}
+	},
+	"70163:EX4  ティア・フィナーレ": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "大賢者の宝玉杖",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "3003"
+			},
+			"Item2": {
+				"dropName": "聖騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 28,
+				"dropID": "8103"
 			}
 		}
 	},
