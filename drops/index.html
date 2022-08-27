@@ -4,7 +4,9 @@
         <meta charset="utf-8"/>
         <title>Drops</title>
         <link href="../test.css" rel="stylesheet" type="text/css"/>
-        <script src="../test.js"></script> 
+        <script src="../scripts/test.js"></script>
+        <script src="../scripts/drop_data.js"></script>
+        <script src="../scripts/questname_data.js"></script>
     </head>
     <body>
         <nav class="nav-menu">
@@ -14,9 +16,699 @@
             <a href="#" class="nav-link">Item4</a>
             <a href="#" class="nav-link">Item5</a>
         </nav>
-        <p>data</p>
-        <div id="drop-select" style="display: block;">
-            <p>dropselect</p>
+        <div id="drop-select">
+            <table>
+                <tr>
+                    <td colspan="16">Weapons</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1001.png"
+                        onclick="dropSelect('1001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1002.png"
+                        onclick="dropSelect('1002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1003.png"
+                        onclick="dropSelect('1003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1004.png"
+                        onclick="dropSelect('1004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1101.png"
+                        onclick="dropSelect('1101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1102.png"
+                        onclick="dropSelect('1102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1103.png"
+                        onclick="dropSelect('1103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1104.png"
+                        onclick="dropSelect('1104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1201.png"
+                        onclick="dropSelect('1201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1202.png"
+                        onclick="dropSelect('1202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1203.png"
+                        onclick="dropSelect('1203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1204.png"
+                        onclick="dropSelect('1204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1301.png"
+                        onclick="dropSelect('1301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1302.png"
+                        onclick="dropSelect('1302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1303.png"
+                        onclick="dropSelect('1303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1304.png"
+                        onclick="dropSelect('1304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1401.png"
+                        onclick="dropSelect('1401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1402.png"
+                        onclick="dropSelect('1402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1403.png"
+                        onclick="dropSelect('1403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1404.png"
+                        onclick="dropSelect('1404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1501.png"
+                        onclick="dropSelect('1501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1502.png"
+                        onclick="dropSelect('1502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1503.png"
+                        onclick="dropSelect('1503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/1504.png"
+                        onclick="dropSelect('1504',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2001.png"
+                        onclick="dropSelect('2001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2002.png"
+                        onclick="dropSelect('2002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2003.png"
+                        onclick="dropSelect('2003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2004.png"
+                        onclick="dropSelect('2004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2101.png"
+                        onclick="dropSelect('2101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2102.png"
+                        onclick="dropSelect('2102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2103.png"
+                        onclick="dropSelect('2103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/2104.png"
+                        onclick="dropSelect('2104',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3001.png"
+                        onclick="dropSelect('3001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3002.png"
+                        onclick="dropSelect('3002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3003.png"
+                        onclick="dropSelect('3003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3004.png"
+                        onclick="dropSelect('3004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3101.png"
+                        onclick="dropSelect('3101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3102.png"
+                        onclick="dropSelect('3102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3103.png"
+                        onclick="dropSelect('3103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3104.png"
+                        onclick="dropSelect('3104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3201.png"
+                        onclick="dropSelect('3201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3202.png"
+                        onclick="dropSelect('3202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3203.png"
+                        onclick="dropSelect('3203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3204.png"
+                        onclick="dropSelect('3204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3301.png"
+                        onclick="dropSelect('3301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3302.png"
+                        onclick="dropSelect('3302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3303.png"
+                        onclick="dropSelect('3303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3304.png"
+                        onclick="dropSelect('3304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3401.png"
+                        onclick="dropSelect('3401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3402.png"
+                        onclick="dropSelect('3402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3403.png"
+                        onclick="dropSelect('3403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3404.png"
+                        onclick="dropSelect('3404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3501.png"
+                        onclick="dropSelect('3501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3502.png"
+                        onclick="dropSelect('3502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3503.png"
+                        onclick="dropSelect('3503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3504.png"
+                        onclick="dropSelect('3504',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3601.png"
+                        onclick="dropSelect('3601',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3602.png"
+                        onclick="dropSelect('3602',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3603.png"
+                        onclick="dropSelect('3603',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/3604.png"
+                        onclick="dropSelect('3604',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="16">Armor and Accessories</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8001.png"
+                        onclick="dropSelect('8001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8002.png"
+                        onclick="dropSelect('8002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8003.png"
+                        onclick="dropSelect('8003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8004.png"
+                        onclick="dropSelect('8004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8101.png"
+                        onclick="dropSelect('8101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8102.png"
+                        onclick="dropSelect('8102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8103.png"
+                        onclick="dropSelect('8103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8104.png"
+                        onclick="dropSelect('8104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8201.png"
+                        onclick="dropSelect('8201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8202.png"
+                        onclick="dropSelect('8202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8203.png"
+                        onclick="dropSelect('8203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8204.png"
+                        onclick="dropSelect('8204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8301.png"
+                        onclick="dropSelect('8301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8302.png"
+                        onclick="dropSelect('8302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8303.png"
+                        onclick="dropSelect('8303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8304.png"
+                        onclick="dropSelect('8304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8401.png"
+                        onclick="dropSelect('8401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8402.png"
+                        onclick="dropSelect('8402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8403.png"
+                        onclick="dropSelect('8403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/8404.png"
+                        onclick="dropSelect('8404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9001.png"
+                        onclick="dropSelect('9001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9002.png"
+                        onclick="dropSelect('9002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9003.png"
+                        onclick="dropSelect('9003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9004.png"
+                        onclick="dropSelect('9004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9201.png"
+                        onclick="dropSelect('9201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9202.png"
+                        onclick="dropSelect('9202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9203.png"
+                        onclick="dropSelect('9203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9204.png"
+                        onclick="dropSelect('9204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9301.png"
+                        onclick="dropSelect('8301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9302.png"
+                        onclick="dropSelect('8302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9303.png"
+                        onclick="dropSelect('9303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9304.png"
+                        onclick="dropSelect('9304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9401.png"
+                        onclick="dropSelect('9401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9402.png"
+                        onclick="dropSelect('9402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9403.png"
+                        onclick="dropSelect('9403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9404.png"
+                        onclick="dropSelect('9404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9501.png"
+                        onclick="dropSelect('9501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9502.png"
+                        onclick="dropSelect('9502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9503.png"
+                        onclick="dropSelect('9503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/equipment-icons/9504.png"
+                        onclick="dropSelect('9504',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="16">Materials</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/gold.png"
+                        onclick="dropSelect('gold',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Red1.png"
+                        onclick="dropSelect('item.material.Red1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Red2.png"
+                        onclick="dropSelect('item.material.Red2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Red3.png"
+                        onclick="dropSelect('item.material.Red3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Blue1.png"
+                        onclick="dropSelect('item.material.Blue1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Blue2.png"
+                        onclick="dropSelect('item.material.Blue2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Blue3.png"
+                        onclick="dropSelect('item.material.Blue3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Brown1.png"
+                        onclick="dropSelect('item.material.Brown1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Brown2.png"
+                        onclick="dropSelect('item.material.Brown2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Brown3.png"
+                        onclick="dropSelect('item.material.Brown3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Green1.png"
+                        onclick="dropSelect('item.material.Green1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Green2.png"
+                        onclick="dropSelect('item.material.Green2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Green3.png"
+                        onclick="dropSelect('item.material.Green3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Light1.png"
+                        onclick="dropSelect('item.material.Light1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Light2.png"
+                        onclick="dropSelect('item.material.Light2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Light3.png"
+                        onclick="dropSelect('item.material.Light3',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Dark1.png"
+                        onclick="dropSelect('item.material.Dark1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Dark2.png"
+                        onclick="dropSelect('item.material.Dark2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Dark3.png"
+                        onclick="dropSelect('item.material.Dark3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Default1.png"
+                        onclick="dropSelect('item.material.Default1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Bom2.png"
+                        onclick="dropSelect('item.material.Bom2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Bom3.png"
+                        onclick="dropSelect('item.material.Bom3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/item.material.Bom4.png"
+                        onclick="dropSelect('item.material.Bom4',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/tdfes01_event.png"
+                        onclick="dropSelect('tdfes01_event',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/pt_ev000006.png"
+                        onclick="dropSelect('pt_ev000006',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../img/item-icons/pt_ev000010.png"
+                        onclick="dropSelect('pt_ev000010',this.src)">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="drop-table">
+            <p>
+                <button onclick="dropSelectReverse()">Back</button>
+            </p>
+            <table>
+                <tr>
+                    <th id="drop-icon" rowspan="3"></th>
+                    <td id="drop-item-name" style="font-size:150%;"></td>
+                </tr>
+                <tr>
+                    <td id="drop-usage" style="font-size:150%;">Used for:</td>
+                </tr>
+                <tr>
+                    <td id="drop-best-stage" style="font-size:150%"></td>
+                </tr>
+            </table>
+            <table id="drop-available">
+                <tr>
+                    <th style="width:60%">Stage Name (Available)</th>
+                    <th style="width:10%">Drop Count</th>
+                    <th style="width:10%">Drop Probability (%)</th>
+                    <th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th>
+                </tr>
+            </table>
+            <table id="drop-unavailable">
+                <tr>
+                    <th style="width:60%">Stage Name (Unavailable)</th>
+                    <th style="width:10%">Drop Count</th>
+                    <th style="width:10%">Drop Probability (%)</th>
+                    <th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th>
+                </tr>
+            </table>
         </div>
     </body>
 </html>

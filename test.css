@@ -70,3 +70,26 @@ th, td{
     font-size:x-large;
     vertical-align:top;
 }
+
+#drop-icon{
+    width: 20%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#drop-icon-image{
+    width: 100%;
+}
+
+.drop-cell{
+    width: 6.25%;
+}
+.dropimg{
+    width: 100%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#drop-table{
+    display: none;
+}

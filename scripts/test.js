@@ -71,3 +71,113 @@ function loadSkillData() {
     let charaSkill = document.getElementById("calc-chara-id").innerHTML
     document.getElementById("calc-skill-data").innerHTML = skillData[charaSkill].levels[skillLevel]
 }
+
+function dropSelect(dropIDpage,imgsrc) {
+    let j = document.getElementById("drop-table");
+    j.style.display = "block";
+    let k = document.getElementById("drop-select");
+    k.style.display = "none";
+    document.getElementById("drop-available").innerHTML = tableAvailable;
+    document.getElementById("drop-unavailable").innerHTML = tableUnavailable;
+    document.getElementById("drop-item-name").innerHTML = ""
+    document.getElementById("drop-usage").innerHTML = ""
+    document.getElementById("drop-best-stage").innerHTML = ""
+    let dropImage = "<img id='drop-icon-image' src="+imgsrc+">";
+    document.getElementById("drop-icon").innerHTML = dropImage;
+    let indexDrop = 0;
+    const toSortAvailable = [];
+    const toSortUnavailable = [];
+    for(let dropList of Object.values(dropData)){
+        for(let dropitemlist of Object.values(dropList.drops)){
+            if (dropitemlist.dropID === dropIDpage){
+                var dropNamepage = dropitemlist.dropName;
+                let stageNamePrint = Object.getOwnPropertyNames(dropData)[indexDrop].split(":")[1];
+                let stageNameID = Object.getOwnPropertyNames(dropData)[indexDrop].split(":")[0];
+                if (stageNameID.charAt(0) === "7"){
+                    if (subStoryUnlock.includes(stageNameID.slice(1,4))){
+                        var unlock = true;
+                    } else {
+                        var unlock = false;
+                    }
+                } else {
+                    unlock = true;
+                }
+                let staminaUsed = dropList.stamina;
+                let probability = dropitemlist.dropProbability;
+                let count = dropitemlist.dropCount;
+                let efficiency = Math.round(1000*staminaUsed/((probability/100)*count))/1000;
+                /*console.log(efficiency)
+                console.log(stageNamePrint)
+                console.log(stageNameID)
+                console.log(unlock)*/
+                if (stageNameID.charAt(0) === "1"){
+                    stageTypePrint = " (Main Story)";
+                } else if (stageNameID.charAt(0) === "2"){
+                    stageTypePrint = " (Special Challenge)";
+                } else if (stageNameID.charAt(0) === "3"){
+                    stageTypePrint = " (Material Quests)";
+                } else if (stageNameID.charAt(0) === "4"){
+                    stageTypePrint = " (Boss Challenge)";
+                } else if (stageNameID.charAt(0) === "5"){
+                    stageTypePrint = " (Dungeon Defense)";
+                } else if (stageNameID.charAt(0) === "7"){
+                    stageTypePrint = subStoryName[stageNameID.slice(1,4)]
+                } else {
+                    stageTypePrint = ""
+                }
+                let tempObjectDrop = {
+                    "stagename": stageNamePrint+stageTypePrint,
+                    "dropcount": count,
+                    "dropprob": probability,
+                    "efficiency": efficiency
+                };
+                if (unlock){
+                    toSortAvailable.push(tempObjectDrop);
+                } else {
+                    toSortUnavailable.push(tempObjectDrop);
+                }
+            }
+        }
+        indexDrop++;
+    }
+    toSortAvailable.sort(function(x,y){
+        return x.efficiency - y.efficiency
+    })
+    toSortUnavailable.sort(function(x,y){
+        return x.efficiency - y.efficiency
+    })
+    console.log(toSortAvailable)
+    console.log(toSortUnavailable)
+    if (typeof dropNamepage === 'undefined'){
+        var dropNamepage = "Not available yet!"
+    }
+    document.getElementById("drop-item-name").innerHTML = dropNamepage
+    try {
+        document.getElementById("drop-best-stage").innerHTML = "Best efficiency:<br>" + toSortAvailable[0].stagename
+    } catch {
+        document.getElementById("drop-best-stage").innerHTML = "No best stage available!"
+    }
+    var tableA = document.getElementById("drop-available")
+    for(let a of toSortAvailable){
+        tableA.insertRow();
+        for(let cell of Object.values(a)){
+            let newCell = tableA.rows[tableA.rows.length - 1].insertCell();
+            newCell.textContent = cell
+        }
+    }
+    var tableU = document.getElementById("drop-unavailable")
+    for(let u of toSortUnavailable){
+        tableU.insertRow();
+        for(let cell of Object.values(u)){
+            let newCell = tableU.rows[tableU.rows.length - 1].insertCell();
+            newCell.textContent = cell
+        }
+    }
+}
+
+function dropSelectReverse() {
+    let x = document.getElementById("drop-select");
+    x.style.display = "block";
+    let y = document.getElementById("drop-table");
+    y.style.display = "none";
+}
