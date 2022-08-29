@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>アイテム獲得確率</title>
+        <link href="../../test.css" rel="stylesheet" type="text/css"/>
+        <script src="../../scripts/test.js"></script>
+        <script src="../../scripts/drop_data.js"></script>
+        <script src="../../scripts/questname_data.js"></script>
+    </head>
+    <body>
+        <nav class="nav-menu">
+            <a href="../../jp/drops/index.html" class="nav-link">アイテム獲得確率</a>
+            <a href="#" class="nav-link">Item3</a>
+            <a href="#" class="nav-link">Item4</a>
+            <a href="#" class="nav-link">Item5</a>
+        </nav>
+        <div id="drop-select">
+            <table>
+                <tr>
+                    <td colspan="16">武器</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1001.png"
+                        onclick="dropSelectJP('1001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1002.png"
+                        onclick="dropSelectJP('1002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1003.png"
+                        onclick="dropSelectJP('1003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1004.png"
+                        onclick="dropSelectJP('1004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1101.png"
+                        onclick="dropSelectJP('1101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1102.png"
+                        onclick="dropSelectJP('1102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1103.png"
+                        onclick="dropSelectJP('1103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1104.png"
+                        onclick="dropSelectJP('1104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1201.png"
+                        onclick="dropSelectJP('1201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1202.png"
+                        onclick="dropSelectJP('1202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1203.png"
+                        onclick="dropSelectJP('1203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1204.png"
+                        onclick="dropSelectJP('1204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1301.png"
+                        onclick="dropSelectJP('1301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1302.png"
+                        onclick="dropSelectJP('1302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1303.png"
+                        onclick="dropSelectJP('1303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1304.png"
+                        onclick="dropSelectJP('1304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1401.png"
+                        onclick="dropSelectJP('1401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1402.png"
+                        onclick="dropSelectJP('1402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1403.png"
+                        onclick="dropSelectJP('1403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1404.png"
+                        onclick="dropSelectJP('1404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1501.png"
+                        onclick="dropSelectJP('1501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1502.png"
+                        onclick="dropSelectJP('1502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1503.png"
+                        onclick="dropSelectJP('1503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/1504.png"
+                        onclick="dropSelectJP('1504',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2001.png"
+                        onclick="dropSelectJP('2001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2002.png"
+                        onclick="dropSelectJP('2002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2003.png"
+                        onclick="dropSelectJP('2003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2004.png"
+                        onclick="dropSelectJP('2004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2101.png"
+                        onclick="dropSelectJP('2101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2102.png"
+                        onclick="dropSelectJP('2102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2103.png"
+                        onclick="dropSelectJP('2103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/2104.png"
+                        onclick="dropSelectJP('2104',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3001.png"
+                        onclick="dropSelectJP('3001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3002.png"
+                        onclick="dropSelectJP('3002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3003.png"
+                        onclick="dropSelectJP('3003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3004.png"
+                        onclick="dropSelectJP('3004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3101.png"
+                        onclick="dropSelectJP('3101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3102.png"
+                        onclick="dropSelectJP('3102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3103.png"
+                        onclick="dropSelectJP('3103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3104.png"
+                        onclick="dropSelectJP('3104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3201.png"
+                        onclick="dropSelectJP('3201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3202.png"
+                        onclick="dropSelectJP('3202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3203.png"
+                        onclick="dropSelectJP('3203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3204.png"
+                        onclick="dropSelectJP('3204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3301.png"
+                        onclick="dropSelectJP('3301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3302.png"
+                        onclick="dropSelectJP('3302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3303.png"
+                        onclick="dropSelectJP('3303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3304.png"
+                        onclick="dropSelectJP('3304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3401.png"
+                        onclick="dropSelectJP('3401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3402.png"
+                        onclick="dropSelectJP('3402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3403.png"
+                        onclick="dropSelectJP('3403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3404.png"
+                        onclick="dropSelectJP('3404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3501.png"
+                        onclick="dropSelectJP('3501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3502.png"
+                        onclick="dropSelectJP('3502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3503.png"
+                        onclick="dropSelectJP('3503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3504.png"
+                        onclick="dropSelectJP('3504',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3601.png"
+                        onclick="dropSelectJP('3601',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3602.png"
+                        onclick="dropSelectJP('3602',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3603.png"
+                        onclick="dropSelectJP('3603',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/3604.png"
+                        onclick="dropSelectJP('3604',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="16">頭部、胴部、アクセサリー</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8001.png"
+                        onclick="dropSelectJP('8001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8002.png"
+                        onclick="dropSelectJP('8002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8003.png"
+                        onclick="dropSelectJP('8003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8004.png"
+                        onclick="dropSelectJP('8004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8101.png"
+                        onclick="dropSelectJP('8101',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8102.png"
+                        onclick="dropSelectJP('8102',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8103.png"
+                        onclick="dropSelectJP('8103',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8104.png"
+                        onclick="dropSelectJP('8104',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8201.png"
+                        onclick="dropSelectJP('8201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8202.png"
+                        onclick="dropSelectJP('8202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8203.png"
+                        onclick="dropSelectJP('8203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8204.png"
+                        onclick="dropSelectJP('8204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8301.png"
+                        onclick="dropSelectJP('8301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8302.png"
+                        onclick="dropSelectJP('8302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8303.png"
+                        onclick="dropSelectJP('8303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8304.png"
+                        onclick="dropSelectJP('8304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8401.png"
+                        onclick="dropSelectJP('8401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8402.png"
+                        onclick="dropSelectJP('8402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8403.png"
+                        onclick="dropSelectJP('8403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/8404.png"
+                        onclick="dropSelectJP('8404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9001.png"
+                        onclick="dropSelectJP('9001',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9002.png"
+                        onclick="dropSelectJP('9002',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9003.png"
+                        onclick="dropSelectJP('9003',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9004.png"
+                        onclick="dropSelectJP('9004',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9201.png"
+                        onclick="dropSelectJP('9201',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9202.png"
+                        onclick="dropSelectJP('9202',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9203.png"
+                        onclick="dropSelectJP('9203',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9204.png"
+                        onclick="dropSelectJP('9204',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9301.png"
+                        onclick="dropSelectJP('8301',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9302.png"
+                        onclick="dropSelectJP('8302',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9303.png"
+                        onclick="dropSelectJP('9303',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9304.png"
+                        onclick="dropSelectJP('9304',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9401.png"
+                        onclick="dropSelectJP('9401',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9402.png"
+                        onclick="dropSelectJP('9402',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9403.png"
+                        onclick="dropSelectJP('9403',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9404.png"
+                        onclick="dropSelectJP('9404',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9501.png"
+                        onclick="dropSelectJP('9501',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9502.png"
+                        onclick="dropSelectJP('9502',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9503.png"
+                        onclick="dropSelectJP('9503',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/equipment-icons/9504.png"
+                        onclick="dropSelectJP('9504',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="16">素材</td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/gold.png"
+                        onclick="dropSelectJP('gold',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Red1.png"
+                        onclick="dropSelectJP('item.material.Red1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Red2.png"
+                        onclick="dropSelectJP('item.material.Red2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Red3.png"
+                        onclick="dropSelectJP('item.material.Red3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Blue1.png"
+                        onclick="dropSelectJP('item.material.Blue1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Blue2.png"
+                        onclick="dropSelectJP('item.material.Blue2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Blue3.png"
+                        onclick="dropSelectJP('item.material.Blue3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Brown1.png"
+                        onclick="dropSelectJP('item.material.Brown1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Brown2.png"
+                        onclick="dropSelectJP('item.material.Brown2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Brown3.png"
+                        onclick="dropSelectJP('item.material.Brown3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Green1.png"
+                        onclick="dropSelectJP('item.material.Green1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Green2.png"
+                        onclick="dropSelectJP('item.material.Green2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Green3.png"
+                        onclick="dropSelectJP('item.material.Green3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Light1.png"
+                        onclick="dropSelectJP('item.material.Light1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Light2.png"
+                        onclick="dropSelectJP('item.material.Light2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Light3.png"
+                        onclick="dropSelectJP('item.material.Light3',this.src)">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Dark1.png"
+                        onclick="dropSelectJP('item.material.Dark1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Dark2.png"
+                        onclick="dropSelectJP('item.material.Dark2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Dark3.png"
+                        onclick="dropSelectJP('item.material.Dark3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Default1.png"
+                        onclick="dropSelectJP('item.material.Default1',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Bom2.png"
+                        onclick="dropSelectJP('item.material.Bom2',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Bom3.png"
+                        onclick="dropSelectJP('item.material.Bom3',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/item.material.Bom4.png"
+                        onclick="dropSelectJP('item.material.Bom4',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/tdfes01_event.png"
+                        onclick="dropSelectJP('tdfes01_event',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/pt_ev000006.png"
+                        onclick="dropSelectJP('pt_ev000006',this.src)">
+                    </td>
+                    <td class="drop-cell">
+                        <img class="dropimg"
+                        src="../../img/item-icons/pt_ev000010.png"
+                        onclick="dropSelectJP('pt_ev000010',this.src)">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="drop-table">
+            <p>
+                <button onclick="dropSelectReverse()">戻る</button>
+            </p>
+            <table>
+                <tr>
+                    <th id="drop-icon" rowspan="3"></th>
+                    <td id="drop-item-name" style="font-size:150%;"></td>
+                </tr>
+                <tr>
+                    <td id="drop-usage" style="font-size:150%;"></td>
+                </tr>
+                <tr>
+                    <td id="drop-best-stage" style="font-size:150%"></td>
+                </tr>
+            </table>
+            <table id="drop-available">
+                <tr>
+                    <th style="width:60%">ステージ名（開放中）</th>
+                    <th style="width:10%">ドロップ数</th>
+                    <th style="width:10%">ドロップ率（％）</th>
+                    <th style="width:20%">スタミナ期待値<br>（少ない方が良い）</th>
+                </tr>
+            </table>
+            <table id="drop-unavailable">
+                <tr>
+                    <th style="width:60%">ステージ名（未開放）</th>
+                    <th style="width:10%">ドロップ数</th>
+                    <th style="width:10%">ドロップ率（％）</th>
+                    <th style="width:20%">スタミナ期待値<br>（少ない方が良い）</th>
+                </tr>
+            </table>
+        </div>
+        <div class="github-link">
+            <p style="font-size:x-small;">バグ報告、意見:<a href="https://github.com/natsumi3hara/monmusutd-dps">Github</a>へ</p>
+        </div>
+    </body>
+</html>
