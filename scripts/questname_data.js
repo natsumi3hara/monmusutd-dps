@@ -48,5 +48,5 @@ const subStoryNameJP = {
 
 const tableAvailable = '<table id="drop-available"><tr><th style="width:60%">Stage Name (Available)</th><th style="width:10%">Drop Count</th><th style="width:10%">Drop Probability (%)</th><th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th></tr></table>';
 const tableUnavailable = '<table id="drop-available"><tr><th style="width:60%">Stage Name (Unavailable)</th><th style="width:10%">Drop Count</th><th style="width:10%">Drop Probability (%)</th><th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th></tr></table>';
-const tableAvailableJP = '<table id="drop-available"><tr><th style="width:60%">ステージ名（開放中）</th><th style="width:10%">ドロップ数</th><th style="width:10%">ドロップ率（％）</th><th style="width:20%">スタミナ期待値<br>（少ない方が良い）</th></tr></table>';
-const tableUnavailableJP = '<table id="drop-available"><tr><th style="width:60%">ステージ名（未開放）</th><th style="width:10%">ドロップ数</th><th style="width:10%">ドロップ率（％）</th><th style="width:20%">スタミナ期待値<br>（少ない方が良い）</th></tr></table>';
+const tableAvailableJP = '<table id="drop-available"><tr><th style="width:60%">ステージ名（開放中）</th><th style="width:10%">ドロップ数</th><th style="width:10%">ドロップ率（％）</th><th style="width:20%">消費スタミナ期待値（一個）<br>（少ない方が良い）</th></tr></table>';
+const tableUnavailableJP = '<table id="drop-available"><tr><th style="width:60%">ステージ名（未開放）</th><th style="width:10%">ドロップ数</th><th style="width:10%">ドロップ率（％）</th><th style="width:20%">消費スタミナ期待値（一個）<br>（少ない方が良い）</th></tr></table>';

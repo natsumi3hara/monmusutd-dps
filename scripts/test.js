@@ -263,7 +263,7 @@ function dropSelectJP(dropIDpage,imgsrc) {
     }
     document.getElementById("drop-item-name").innerHTML = dropNamepage
     try {
-        document.getElementById("drop-best-stage").innerHTML = "最も効率が良いステージ：<br>" + toSortAvailable[0].stagename
+        document.getElementById("drop-best-stage").innerHTML = "最も効率の良いステージ：<br>" + toSortAvailable[0].stagename
     } catch {
         document.getElementById("drop-best-stage").innerHTML = "開放中ステージがありません"
     }
