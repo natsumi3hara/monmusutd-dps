@@ -2,8 +2,8 @@ const subStoryUnlock = [
     "000",
     "001",
     "002",
-    "015",
-    "016"
+    "017",
+    "018"
 ];
 
 const subStoryName = {
@@ -24,6 +24,8 @@ const subStoryName = {
     "014":" (Gold Vacation Decadence)",
     "015":" (Wonders of Geshpent Tour!)",
     "016":" (Wonders of Geshpent Tour!)",
+    "017":" (Crusher of the Wasteland)",
+    "018":" (Crusher of the Wasteland)",
 };
 
 const subStoryNameJP = {
@@ -44,6 +46,8 @@ const subStoryNameJP = {
     "014":" (ゴールドバカンスデカダンス)",
     "015":" (ゲシュペンス島ふしぎめぐり！)",
     "016":" (ゲシュペンス島ふしぎめぐり！)",
+    "017":" (荒野の破壊者)",
+    "018":" (荒野の破壊者)",
 };
 
 const tableAvailable = '<table id="drop-available"><tr><th style="width:60%">Stage Name (Available)</th><th style="width:10%">Drop Count</th><th style="width:10%">Drop Probability (%)</th><th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th></tr></table>';
