@@ -4641,6 +4641,108 @@ var dropData = {
 			}
 		}
 	},
+	"70170:E-1 死の予言と波乱万丈航行": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "盗賊のナイフ",
+				"dropCount": 1,
+				"dropProbability": 20,
+				"dropID": "1501"
+			},
+			"Item2": {
+				"dropName": "戦士の兜",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8101"
+			}
+		}
+	},
+	"70171:E-2 壊に壊されて壊に泣く": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "壊れかけの楽器",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "3601"
+			},
+			"Item2": {
+				"dropName": "弓使いの帽子",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "8201"
+			}
+		}
+	},
+	"70172:E-3 ママとメドと時々サンドワーム": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "鋼刃の斧",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "1001"
+			},
+			"Item2": {
+				"dropName": "魔除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "9301"
+			}
+		}
+	},
+	"70173:E-4 魔導兵器を手に入れろ！": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "凶刃の戦斧",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "1002"
+			},
+			"Item2": {
+				"dropName": "戦士の手袋",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9002"
+			}
+		}
+	},
+	"70180:EX1 ママとメドと時々サンドワーム": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "アサシンダガー",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "1502"
+			},
+			"Item2": {
+				"dropName": "ミスリルアーマー",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "8302"
+			}
+		}
+	},
+	"70181:EX2 魔導兵器を手に入れろ！": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "三日月のハープ",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "3602"
+			},
+			"Item2": {
+				"dropName": "商人の服",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "8402"
+			}
+		}
+	},
 	"1:属性マステスト用マップ": {
 		"stamina": 1,
 		"drops": {}
