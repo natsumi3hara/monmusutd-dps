@@ -4337,10 +4337,10 @@ var dropData = {
 		"stamina": 8,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 72,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4348,10 +4348,10 @@ var dropData = {
 		"stamina": 12,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 112,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4359,10 +4359,10 @@ var dropData = {
 		"stamina": 12,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 112,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4370,10 +4370,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4381,10 +4381,10 @@ var dropData = {
 		"stamina": 18,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 180,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4392,10 +4392,10 @@ var dropData = {
 		"stamina": 18,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 180,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4403,10 +4403,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4414,10 +4414,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4425,10 +4425,10 @@ var dropData = {
 		"stamina": 16,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 156,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4436,10 +4436,10 @@ var dropData = {
 		"stamina": 20,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 220,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4447,10 +4447,10 @@ var dropData = {
 		"stamina": 20,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 220,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4740,91 +4740,6 @@ var dropData = {
 				"dropCount": 1,
 				"dropProbability": 39,
 				"dropID": "8402"
-			}
-		}
-	},
-	"70174:E-5 思春期娘を探して何海里": {
-		"stamina": 14,
-		"drops": {
-			"Item1": {
-				"dropName": "改造短銃",
-				"dropCount": 1,
-				"dropProbability": 18,
-				"dropID": "2102"
-			},
-			"Item2": {
-				"dropName": "騎士の兜",
-				"dropCount": 1,
-				"dropProbability": 30,
-				"dropID": "8102"
-			}
-		}
-	},
-	"70175:E-6 女海賊と密猟者ギルド": {
-		"stamina": 14,
-		"drops": {
-			"Item1": {
-				"dropName": "ガンナーハット",
-				"dropCount": 1,
-				"dropProbability": 30,
-				"dropID": "8202"
-			},
-			"Item2": {
-				"dropName": "邪視除けのお守り",
-				"dropCount": 1,
-				"dropProbability": 30,
-				"dropID": "9302"
-			}
-		}
-	},
-	"70176:E-7 モンスターパラダイス": {
-		"stamina": 16,
-		"drops": {
-			"Item1": {
-				"dropName": "エレガントフレーム",
-				"dropCount": 1,
-				"dropProbability": 23,
-				"dropID": "9503"
-			},
-			"Item2": {
-				"dropName": "カウボーイハット",
-				"dropCount": 1,
-				"dropProbability": 23,
-				"dropID": "8203"
-			}
-		}
-	},
-	"70182:EX3 思春期娘を探して何海里": {
-		"stamina": 20,
-		"drops": {
-			"Item1": {
-				"dropName": "短刀・狼牙",
-				"dropCount": 1,
-				"dropProbability": 17,
-				"dropID": "1503"
-			},
-			"Item2": {
-				"dropName": "ラブリウス",
-				"dropCount": 1,
-				"dropProbability": 17,
-				"dropID": "1003"
-			}
-		}
-	},
-	"70183:EX4  モンスターパラダイス": {
-		"stamina": 20,
-		"drops": {
-			"Item1": {
-				"dropName": "賢者のハープ",
-				"dropCount": 1,
-				"dropProbability": 17,
-				"dropID": "3603"
-			},
-			"Item2": {
-				"dropName": "聖騎士の手袋",
-				"dropCount": 1,
-				"dropProbability": 28,
-				"dropID": "9003"
 			}
 		}
 	},
