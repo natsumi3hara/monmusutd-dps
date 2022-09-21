@@ -3,8 +3,8 @@ const subStoryUnlock = [
     "001",
     "002",
     "004",
-    "017",
-    "018"
+    "019",
+    "020"
 ];
 
 const subStoryName = {
