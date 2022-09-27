@@ -2756,6 +2756,17 @@ var dropData = {
 			}
 		}
 	},
+	"30901:超絶EXPミルク牧場": {
+		"stamina": 1,
+		"drops": {
+			"Item1": {
+				"dropName": "スキル強化SSR",
+				"dropCount": 40,
+				"dropProbability": 100,
+				"dropID": "ssr_all"
+			}
+		}
+	},
 	"40100:デカイオー Lv.1": {
 		"stamina": 30,
 		"drops": {}
@@ -2938,6 +2949,34 @@ var dropData = {
 	},
 	"45205:ニードルフライ Lv.MAX": {
 		"stamina": 0,
+		"drops": {}
+	},
+	"45300:ロットインクーロ Lv.1": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45301:ロットインクーロ Lv.2": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45302:ロットインクーロ Lv.3": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45303:ロットインクーロ Lv.4": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45304:ロットインクーロ Lv.5": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45305:ロットインクーロ  Lv.MAX": {
+		"stamina": 0,
+		"drops": {}
+	},
+	"50101:無限チャレンジ デカイオー": {
+		"stamina": 30,
 		"drops": {}
 	},
 	"55000:ノーマル1": {
@@ -4337,10 +4376,10 @@ var dropData = {
 		"stamina": 8,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 72,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4348,10 +4387,10 @@ var dropData = {
 		"stamina": 12,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 112,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4359,10 +4398,10 @@ var dropData = {
 		"stamina": 12,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 112,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4370,10 +4409,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4381,10 +4420,10 @@ var dropData = {
 		"stamina": 18,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 180,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4392,10 +4431,10 @@ var dropData = {
 		"stamina": 18,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 180,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4403,10 +4442,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4414,10 +4453,10 @@ var dropData = {
 		"stamina": 14,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 134,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4425,10 +4464,10 @@ var dropData = {
 		"stamina": 16,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 156,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4436,10 +4475,10 @@ var dropData = {
 		"stamina": 20,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 220,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4447,10 +4486,10 @@ var dropData = {
 		"stamina": 20,
 		"drops": {
 			"Item1": {
-				"dropName": "聖騎士の手袋",
+				"dropName": "バカンスpt",
 				"dropCount": 220,
 				"dropProbability": 100,
-				"dropID": "42"
+				"dropID": "pt_ev000010"
 			}
 		}
 	},
@@ -4825,6 +4864,108 @@ var dropData = {
 				"dropCount": 1,
 				"dropProbability": 28,
 				"dropID": "9003"
+			}
+		}
+	},
+	"70190:E-1 ビューティフルルププドリーム": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "戦士長の剣",
+				"dropCount": 1,
+				"dropProbability": 20,
+				"dropID": "1301"
+			},
+			"Item2": {
+				"dropName": "アイアンバックラー",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8001"
+			}
+		}
+	},
+	"70191:E-2 闇に紛れてヤツらが目覚める": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "鋼刃の斧",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "1001"
+			},
+			"Item2": {
+				"dropName": "鉄の鎧",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "8301"
+			}
+		}
+	},
+	"70192:E-3 闇夜に暗躍する盗賊の影": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "知恵の書",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "3101"
+			},
+			"Item2": {
+				"dropName": "魔除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "9301"
+			}
+		}
+	},
+	"70193:E-4 獅子奮迅の如く": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "凶刃の戦斧",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "1002"
+			},
+			"Item2": {
+				"dropName": "ジェイドリング",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9202"
+			}
+		}
+	},
+	"70200:EX1 闇夜に暗躍する盗賊の影": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "ナイトソード",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "1302"
+			},
+			"Item2": {
+				"dropName": "ミスリルアーマー",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "8302"
+			}
+		}
+	},
+	"70201:EX2 獅子奮迅の如く": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "賢人の書",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "3102"
+			},
+			"Item2": {
+				"dropName": "邪視除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "9302"
 			}
 		}
 	},
