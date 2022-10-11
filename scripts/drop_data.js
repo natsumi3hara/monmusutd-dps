@@ -4969,6 +4969,157 @@ var dropData = {
 			}
 		}
 	},
+	"70194:E-5 ハギナからの挑戦状": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "生命のオーブ",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "3302"
+			},
+			"Item2": {
+				"dropName": "ナイトシールド",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8002"
+			}
+		}
+	},
+	"70195:E-6 新兵器で貞操の危機": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8102"
+			},
+			"Item2": {
+				"dropName": "商人の服",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8402"
+			}
+		}
+	},
+	"70196:E-7 副ギルドマスター登場": {
+		"stamina": 16,
+		"drops": {
+			"Item1": {
+				"dropName": "ドラゴンアーマー",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8303"
+			},
+			"Item2": {
+				"dropName": "聖騎士の大盾",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8003"
+			}
+		}
+	},
+	"70202:EX3 ハギナからの挑戦状 ": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "ミスリルソード",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1303"
+			},
+			"Item2": {
+				"dropName": "ラブリウス",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1003"
+			}
+		}
+	},
+	"70203:EX4 副ギルドマスター登場": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "回生のオーブ",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "3303"
+			},
+			"Item2": {
+				"dropName": "聖騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 28,
+				"dropID": "8103"
+			}
+		}
+	},
+	"70210:E-1 MTD あねんじゃーず": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 72,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70211:E-2 ざ・ふぁーすと・あねんじゃー": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 112,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70212:E-3 ウィルダネスオブポイズネス": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 112,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70213:E-4 エイジ・オブ・ブレイブ": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 134,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70220:EX1 ウィルダネスオブポイズネス": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 180,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70221:EX2 エイジ・オブ・ブレイブ": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 180,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
 	"1:属性マステスト用マップ": {
 		"stamina": 1,
 		"drops": {}
