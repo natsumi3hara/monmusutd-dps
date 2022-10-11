@@ -28,7 +28,9 @@ const subStoryName = {
     "017":" (Crusher of the Wasteland)",
     "018":" (Crusher of the Wasteland)",
     "019":" (In My Dream)",
-    "020":" (In My Dream)"
+    "020":" (In My Dream)",
+    "021":" (Sister Syndrome Complex)",
+    "022":" (Sister Syndrome Complex)"
 };
 
 const subStoryNameJP = {
@@ -52,7 +54,9 @@ const subStoryNameJP = {
     "017":" (荒野の破壊者)",
     "018":" (荒野の破壊者)",
     "019":" (淫MyDream)",
-    "020":" (淫MyDream)"
+    "020":" (淫MyDream)",
+    "021":" (シスターズシンドロームコンプレックス)",
+    "021":" (シスターズシンドロームコンプレックス)"
 };
 
 const tableAvailable = '<table id="drop-available"><tr><th style="width:60%">Stage Name (Available)</th><th style="width:10%">Drop Count</th><th style="width:10%">Drop Probability (%)</th><th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th></tr></table>';
