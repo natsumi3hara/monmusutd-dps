@@ -55,8 +55,8 @@ const subStoryNameJP = {
     "018":" (荒野の破壊者)",
     "019":" (淫MyDream)",
     "020":" (淫MyDream)",
-    "021":" (シスターズシンドロームコンプレックス)",
-    "022":" (シスターズシンドロームコンプレックス)"
+    "021":" (シスターシンドロームコンプレックス)",
+    "022":" (シスターシンドロームコンプレックス)"
 };
 
 const tableAvailable = '<table id="drop-available"><tr><th style="width:60%">Stage Name (Available)</th><th style="width:10%">Drop Count</th><th style="width:10%">Drop Probability (%)</th><th style="width:20%">Expected stamina to get 1 item<br>(less is better)</th></tr></table>';
