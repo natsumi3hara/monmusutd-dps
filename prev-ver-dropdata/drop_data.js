@@ -2756,6 +2756,17 @@ var dropData = {
 			}
 		}
 	},
+	"30901:超絶EXPミルク牧場": {
+		"stamina": 1,
+		"drops": {
+			"Item1": {
+				"dropName": "スキル強化SSR",
+				"dropCount": 40,
+				"dropProbability": 100,
+				"dropID": "ssr_all"
+			}
+		}
+	},
 	"40100:デカイオー Lv.1": {
 		"stamina": 30,
 		"drops": {}
@@ -2938,6 +2949,34 @@ var dropData = {
 	},
 	"45205:ニードルフライ Lv.MAX": {
 		"stamina": 0,
+		"drops": {}
+	},
+	"45300:ロットインクーロ Lv.1": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45301:ロットインクーロ Lv.2": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45302:ロットインクーロ Lv.3": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45303:ロットインクーロ Lv.4": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45304:ロットインクーロ Lv.5": {
+		"stamina": 30,
+		"drops": {}
+	},
+	"45305:ロットインクーロ  Lv.MAX": {
+		"stamina": 0,
+		"drops": {}
+	},
+	"50101:無限チャレンジ デカイオー": {
+		"stamina": 30,
 		"drops": {}
 	},
 	"55000:ノーマル1": {
@@ -4740,6 +4779,344 @@ var dropData = {
 				"dropCount": 1,
 				"dropProbability": 39,
 				"dropID": "8402"
+			}
+		}
+	},
+	"70174:E-5 思春期娘を探して何海里": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "改造短銃",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "2102"
+			},
+			"Item2": {
+				"dropName": "騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8102"
+			}
+		}
+	},
+	"70175:E-6 女海賊と密猟者ギルド": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "ガンナーハット",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8202"
+			},
+			"Item2": {
+				"dropName": "邪視除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9302"
+			}
+		}
+	},
+	"70176:E-7 モンスターパラダイス": {
+		"stamina": 16,
+		"drops": {
+			"Item1": {
+				"dropName": "エレガントフレーム",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "9503"
+			},
+			"Item2": {
+				"dropName": "カウボーイハット",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8203"
+			}
+		}
+	},
+	"70182:EX3 思春期娘を探して何海里": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "短刀・狼牙",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1503"
+			},
+			"Item2": {
+				"dropName": "ラブリウス",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1003"
+			}
+		}
+	},
+	"70183:EX4  モンスターパラダイス": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "賢者のハープ",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "3603"
+			},
+			"Item2": {
+				"dropName": "聖騎士の手袋",
+				"dropCount": 1,
+				"dropProbability": 28,
+				"dropID": "9003"
+			}
+		}
+	},
+	"70190:E-1 ビューティフルルププドリーム": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "戦士長の剣",
+				"dropCount": 1,
+				"dropProbability": 20,
+				"dropID": "1301"
+			},
+			"Item2": {
+				"dropName": "アイアンバックラー",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8001"
+			}
+		}
+	},
+	"70191:E-2 闇に紛れてヤツらが目覚める": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "鋼刃の斧",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "1001"
+			},
+			"Item2": {
+				"dropName": "鉄の鎧",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "8301"
+			}
+		}
+	},
+	"70192:E-3 闇夜に暗躍する盗賊の影": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "知恵の書",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "3101"
+			},
+			"Item2": {
+				"dropName": "魔除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "9301"
+			}
+		}
+	},
+	"70193:E-4 獅子奮迅の如く": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "凶刃の戦斧",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "1002"
+			},
+			"Item2": {
+				"dropName": "ジェイドリング",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9202"
+			}
+		}
+	},
+	"70200:EX1 闇夜に暗躍する盗賊の影": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "ナイトソード",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "1302"
+			},
+			"Item2": {
+				"dropName": "ミスリルアーマー",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "8302"
+			}
+		}
+	},
+	"70201:EX2 獅子奮迅の如く": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "賢人の書",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "3102"
+			},
+			"Item2": {
+				"dropName": "邪視除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "9302"
+			}
+		}
+	},
+	"70194:E-5 ハギナからの挑戦状": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "生命のオーブ",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "3302"
+			},
+			"Item2": {
+				"dropName": "ナイトシールド",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8002"
+			}
+		}
+	},
+	"70195:E-6 新兵器で貞操の危機": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8102"
+			},
+			"Item2": {
+				"dropName": "商人の服",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8402"
+			}
+		}
+	},
+	"70196:E-7 副ギルドマスター登場": {
+		"stamina": 16,
+		"drops": {
+			"Item1": {
+				"dropName": "ドラゴンアーマー",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8303"
+			},
+			"Item2": {
+				"dropName": "聖騎士の大盾",
+				"dropCount": 1,
+				"dropProbability": 23,
+				"dropID": "8003"
+			}
+		}
+	},
+	"70202:EX3 ハギナからの挑戦状 ": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "ミスリルソード",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1303"
+			},
+			"Item2": {
+				"dropName": "ラブリウス",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "1003"
+			}
+		}
+	},
+	"70203:EX4 副ギルドマスター登場": {
+		"stamina": 20,
+		"drops": {
+			"Item1": {
+				"dropName": "回生のオーブ",
+				"dropCount": 1,
+				"dropProbability": 17,
+				"dropID": "3303"
+			},
+			"Item2": {
+				"dropName": "聖騎士の兜",
+				"dropCount": 1,
+				"dropProbability": 28,
+				"dropID": "8103"
+			}
+		}
+	},
+	"70210:E-1 MTD あねんじゃーず": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 72,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70211:E-2 ざ・ふぁーすと・あねんじゃー": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 112,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70212:E-3 ウィルダネスオブポイズネス": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 112,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70213:E-4 エイジ・オブ・ブレイブ": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 134,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70220:EX1 ウィルダネスオブポイズネス": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 180,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70221:EX2 エイジ・オブ・ブレイブ": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "姉光pt",
+				"dropCount": 180,
+				"dropProbability": 100,
+				"dropID": "pt_harphiasyndrome"
 			}
 		}
 	},
