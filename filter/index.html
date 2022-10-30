@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Filter</title>
+        <script src="../scripts/ability_data.js"></script>
+        <script src="../scripts/skill_data.js"></script>
+        <script src="../scripts/filterUnit.js"></script>
+    </head>
+    <body>
+        <nav class="nav-menu">
+            <a href="../characters/index.html" class="nav-link">Characters</a>
+            <a href="../drops/index.html" class="nav-link">Drops</a>
+            <a href="../filter/index.html" class="nav-link">Filter</a>
+            <a href="#" class="nav-link">Item4</a>
+            <a href="#" class="nav-link">Item5</a>
+        </nav>
+        <div id="selectionWindow">
+            <div>
+                <input type="checkbox" id="andORswitch">
+                <label for="andORswitch">OR search</label>
+            </div>
+            <div id="buttonContainer">
+                <button id="showAll" class="btn" onclick="filterSelection('all')" style="background-color:#FCBDC6;color:black"> Show All (Reset)</button>
+                <button class="btn legendB" onclick="filterSelection('legend')"> Legend</button>
+                <button class="btn epicB" onclick="filterSelection('epic')"> Epic</button>
+                <button class="btn rareB" onclick="filterSelection('rare')"> Rare</button>
+                <button class="btn commonB" onclick="filterSelection('common')"> Common</button>
+                <hr class="hline">
+                <span style="font-size:14px;">Class↓</span>
+                <hr class="hline">
+                <button class="btn" onclick="filterSelection('scimitar')"> Warrior(Scimitar)</button>
+                <button class="btn" onclick="filterSelection('spear')"> Warrior(Spear)</button>
+                <button class="btn" onclick="filterSelection('axe')"> Warrior(Axe)</button>
+                <button class="btn" onclick="filterSelection('sword')"> Guardian(Sword)</button>
+                <button class="btn" onclick="filterSelection('hammer')"> Guardian(Hammer)</button>
+                <button class="btn" onclick="filterSelection('bow')"> Sniper(Bow)</button>
+                <button class="btn" onclick="filterSelection('gun')"> Sniper(Gun)</button>
+                <button class="btn" onclick="filterSelection('staff')"> Sorcerer(Staff)</button>
+                <button class="btn" onclick="filterSelection('book')"> Sorcerer(Book)</button>
+                <button class="btn" onclick="filterSelection('scepter')"> Healer(Scepter)</button>
+                <button class="btn" onclick="filterSelection('orb')"> Healer(Orb)</button>
+                <button class="btn" onclick="filterSelection('dagger')"> Scout(Dagger)</button>
+                <button class="btn" onclick="filterSelection('fan')"> Scout(Fan)</button>
+                <button class="btn" onclick="filterSelection('twig')"> Supporter(Twig)</button>
+                <button class="btn" onclick="filterSelection('instrument')"> Supporter(Instrument)</button>
+                <hr class="hline">
+                <span style="font-size:14px;">Placement/Movement/Attack Type↓</span>
+                <hr class="hline">
+                <button class="btn" onclick="filterSelection('meleeT')"> Melee Tile</button>
+                <button class="btn" onclick="filterSelection('rangedT')"> Ranged Tile</button>
+                <button class="btn" onclick="filterSelection('ground')"> Ground</button>
+                <button class="btn" onclick="filterSelection('flying')"> Flying</button>
+                <button class="btn" onclick="filterSelection('physical')"> Physical</button>
+                <button class="btn" onclick="filterSelection('magical')"> Magical</button>
+                <button class="btn" onclick="filterSelection('melee')"> Melee Attack</button>
+                <button class="btn" onclick="filterSelection('ranged')"> Ranged Attack</button>
+                <hr class="hline">
+                <span style="font-size:14px;">Tags↓</span>
+                <hr class="hline">
+                <button class="btn" onclick="filterSelection('dps')"> DPS</button>
+                <button class="btn" onclick="filterSelection('aspd')"> Fast Attack</button>
+                <button class="btn" onclick="filterSelection('move')"> Fast Movement</button>
+                <button class="btn" onclick="filterSelection('tankp')"> Tank(Physical)</button>
+                <button class="btn" onclick="filterSelection('tankm')"> Tank(Magical)</button>
+                <button class="btn" onclick="filterSelection('support')"> Support</button>
+                <hr class="hline">
+                <button class="btn" onclick="filterSelection('evasion')"> Evasion</button>
+                <button class="btn" onclick="filterSelection('poison')"> Poison</button>
+                <button class="btn" onclick="filterSelection('slow')"> Slow</button>
+                <button class="btn" onclick="filterSelection('knockback')"> Knockback</button>
+                <button class="btn" onclick="filterSelection('critical')"> Critical(Innate)</button>
+                <button class="btn" onclick="filterSelection('multihit')"> Multi-hit</button>
+                <button class="btn" onclick="filterSelection('multitarget')"> Multi-target</button>
+                <hr class="hline">
+                <span style="font-size:14px;">Support Buffs (Team)↓</span>
+                <hr class="hline">
+                <button class="btn" onclick="filterSelection('atkbuff')"> Attack Buff</button>
+                <button class="btn" onclick="filterSelection('movspdbuff')"> MovSpd Buff</button>
+                <button class="btn" onclick="filterSelection('atkbuff')"> Evasion Buff</button>
+            </div>
+            <hr class="hline">
+            <div class="container">
+                <div class="filterDiv rare sword meleeT ground melee physical tankp critical movement" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10001_0_s.png" onclick="unitselect(1,this.src)">
+                </div>
+                <div class="filterDiv rare fan meleeT rangedT flying ranged physical critical slow knockback multitarget" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10003_0_s.png" onclick="unitselect(3,this.src)">
+                </div>
+                <div class="filterDiv common bow rangedT ground ranged physical multihit aspd" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10004_0_s.png" onclick="unitselect(4,this.src)">
+                </div>
+                <div class="filterDiv epic fan meleeT rangedT flying ranged physical evasion slow knockback" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10005_0_s.png" onclick="unitselect(5,this.src)">
+                </div>
+                <div class="filterDiv rare orb" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10006_0_s.png" onclick="unitselect(6,this.src)">
+                </div>
+                <div class="filterDiv rare scepter" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10007_0_s.png" onclick="unitselect(7,this.src)">
+                </div>
+                <div class="filterDiv epic staff" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10008_0_s.png" onclick="unitselect(8,this.src)">
+                </div>
+                <div class="filterDiv epic spear" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10010_0_s.png" onclick="unitselect(10,this.src)">
+                </div>
+                <div class="filterDiv common axe" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10011_0_s.png" onclick="unitselect(11,this.src)">
+                </div>
+                <div class="filterDiv epic bow" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10012_0_s.png" onclick="unitselect(12,this.src)">
+                </div>
+                <div class="filterDiv common dagger" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10013_0_s.png" onclick="unitselect(13,this.src)">
+                </div>
+                <div class="filterDiv epic dagger" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10014_0_s.png" onclick="unitselect(14,this.src)">
+                </div>
+                <div class="filterDiv epic scimitar" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10015_0_s.png" onclick="unitselect(15,this.src)">
+                </div>
+                <div class="filterDiv epic axe" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10016_0_s.png" onclick="unitselect(16,this.src)">
+                </div>
+                <div class="filterDiv common bow" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10017_0_s.png" onclick="unitselect(17,this.src)">
+                </div>
+                <div class="filterDiv epic staff" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10019_0_s.png" onclick="unitselect(19,this.src)">
+                </div>
+                <div class="filterDiv rare bow" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10020_0_s.png" onclick="unitselect(20,this.src)">
+                </div>
+                <div class="filterDiv rare book" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10021_0_s.png" onclick="unitselect(21,this.src)">
+                </div>
+                <div class="filterDiv rare bow" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10022_0_s.png" onclick="unitselect(22,this.src)">
+                </div>
+                <div class="filterDiv epic hammer" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10023_0_s.png" onclick="unitselect(23,this.src)">
+                </div>
+                <div class="filterDiv epic gun" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10024_0_s.png" onclick="unitselect(24,this.src)">
+                </div>
+                <div class="filterDiv epic book" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10025_0_s.png" onclick="unitselect(25,this.src)">
+                </div>
+                <div class="filterDiv legend sword" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10026_0_s.png" onclick="unitselect(26,this.src)">
+                </div>
+                <div class="filterDiv legend gun rangedT ground magical ranged dps aspd multitarget" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10027_0_s.png" onclick="unitselect(27,this.src)">
+                </div>
+                <div class="filterDiv legend staff" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10028_0_s.png" onclick="unitselect(28,this.src)">
+                </div>
+                <div class="filterDiv common hammer" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10029_0_s.png" onclick="unitselect(29,this.src)">
+                </div>
+                <div class="filterDiv common book" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10030_0_s.png" onclick="unitselect(30,this.src)">
+                </div>
+                <div class="filterDiv rare dagger" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10031_0_s.png" onclick="unitselect(31,this.src)">
+                </div>
+                <div class="filterDiv rare twig" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10032_0_s.png" onclick="unitselect(32,this.src)">
+                </div>
+                <div class="filterDiv rare gun" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10033_0_s.png" onclick="unitselect(33,this.src)">
+                </div>
+                <div class="filterDiv epic orb" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10034_0_s.png" onclick="unitselect(34,this.src)">
+                </div>
+                <div class="filterDiv rare axe" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10035_0_s.png" onclick="unitselect(35,this.src)">
+                </div>
+                <div class="filterDiv epic scimitar" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10036_0_s.png" onclick="unitselect(36,this.src)">
+                </div>
+                <div class="filterDiv epic twig" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10037_0_s.png" onclick="unitselect(37,this.src)">
+                </div>
+                <div class="filterDiv legend spear" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10038_0_s.png" onclick="unitselect(38,this.src)">
+                </div>
+                <div class="filterDiv epic sword" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10039_0_s.png" onclick="unitselect(39,this.src)">
+                </div>
+                <div class="filterDiv legend dagger" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10040_0_s.png" onclick="unitselect(40,this.src)">
+                </div>
+                <div class="filterDiv epic hammer" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10041_0_s.png" onclick="unitselect(41,this.src)">
+                </div>
+                <div class="filterDiv epic scepter" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10042_0_s.png" onclick="unitselect(42,this.src)">
+                </div>
+                <div class="filterDiv legend hammer" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10043_0_s.png" onclick="unitselect(43,this.src)">
+                </div>
+                <div class="filterDiv legend axe" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10044_0_s.png" onclick="unitselect(44,this.src)">
+                </div>
+                <div class="filterDiv legend orb" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10046_0_s.png" onclick="unitselect(46,this.src)">
+                </div>
+                <div class="filterDiv common staff" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10047_0_s.png" onclick="unitselect(47,this.src)">
+                </div>
+                <div class="filterDiv legend scepter" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10049_0_s.png" onclick="unitselect(49,this.src)">
+                </div>
+                <div class="filterDiv epic gun" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10050_0_s.png" onclick="unitselect(50,this.src)">
+                </div>
+                <div class="filterDiv legend fan" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10051_0_s.png" onclick="unitselect(51,this.src)">
+                </div>
+                <div class="filterDiv rare staff" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10052_0_s.png" onclick="unitselect(52,this.src)">
+                </div>
+                <div class="filterDiv rare book" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10053_0_s.png" onclick="unitselect(53,this.src)">
+                </div>
+                <div class="filterDiv epic instrument" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10054_0_s.png" onclick="unitselect(54,this.src)">
+                </div>
+                <div class="filterDiv rare hammer" style="background-color:#87ceeb;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10055_0_s.png" onclick="unitselect(55,this.src)">
+                </div>
+                <div class="filterDiv common sword" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10056_0_s.png" onclick="unitselect(56,this.src)">
+                </div>
+                <div class="filterDiv common sword" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10057_0_s.png" onclick="unitselect(57,this.src)">
+                </div>
+                <div class="filterDiv common gun" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10058_0_s.png" onclick="unitselect(58,this.src)">
+                </div>
+                <div class="filterDiv common dagger" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10059_0_s.png" onclick="unitselect(59,this.src)">
+                </div>
+                <div class="filterDiv common spear" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10060_0_s.png" onclick="unitselect(60,this.src)">
+                </div>
+                <div class="filterDiv legend scimitar" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10061_0_s.png" onclick="unitselect(61,this.src)">
+                </div>
+                <div class="filterDiv epic scimitar" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10062_0_s.png" onclick="unitselect(62,this.src)">
+                </div>
+                <div class="filterDiv legend sword" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10063_0_s.png" onclick="unitselect(63,this.src)">
+                </div>
+                <div class="filterDiv legend bow" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10064_0_s.png" onclick="unitselect(64,this.src)">
+                </div>
+                <div class="filterDiv epic bow" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10065_0_s.png" onclick="unitselect(65,this.src)">
+                </div>
+                <div class="filterDiv legend book" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10066_0_s.png" onclick="unitselect(66,this.src)">
+                </div>
+                <div class="filterDiv legend dagger" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10067_0_s.png" onclick="unitselect(67,this.src)">
+                </div>
+                <div class="filterDiv legend twig" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10068_0_s.png" onclick="unitselect(68,this.src)">
+                </div>
+                <div class="filterDiv legend twig" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10069_0_s.png" onclick="unitselect(69,this.src)">
+                </div>
+                <div class="filterDiv epic scepter" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10070_0_s.png" onclick="unitselect(70,this.src)">
+                </div>
+                <div class="filterDiv common scepter" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10071_0_s.png" onclick="unitselect(71,this.src)">
+                </div>
+                <div class="filterDiv common orb" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10072_0_s.png" onclick="unitselect(72,this.src)">
+                </div>
+                <div class="filterDiv common spear" style="background-color:#c0c0c0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10073_0_s.png" onclick="unitselect(73,this.src)">
+                </div>
+                <div class="filterDiv epic spear" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10074_0_s.png" onclick="unitselect(74,this.src)">
+                </div>
+                <div class="filterDiv legend instrument" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10075_0_s.png" onclick="unitselect(75,this.src)">
+                </div>
+                <div class="filterDiv epic fan" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10076_0_s.png" onclick="unitselect(76,this.src)">
+                </div>
+                <div class="filterDiv epic spear" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10078_0_s.png" onclick="unitselect(78,this.src)">
+                </div>
+                <div class="filterDiv legend axe" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10079_0_s.png" onclick="unitselect(79,this.src)">
+                </div>
+                <div class="filterDiv epic spear" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10080_0_s.png" onclick="unitselect(80,this.src)">
+                </div>
+                <div class="filterDiv legend gun" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10081_0_s.png" onclick="unitselect(81,this.src)">
+                </div>
+                <div class="filterDiv legend staff" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10082_0_s.png" onclick="unitselect(82,this.src)">
+                </div>
+                <div class="filterDiv epic axe" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10086_0_s.png" onclick="unitselect(86,this.src)">
+                </div>
+                <div class="filterDiv epic dagger" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10087_0_s.png" onclick="unitselect(87,this.src)">
+                </div>
+                <div class="filterDiv legend axe" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10088_0_s.png" onclick="unitselect(88,this.src)">
+                </div>
+                <div class="filterDiv legend dagger" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10089_0_s.png" onclick="unitselect(89,this.src)">
+                </div>
+                <div class="filterDiv legend bow" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10090_0_s.png" onclick="unitselect(90,this.src)">
+                </div>
+                <div class="filterDiv legend scimitar" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10091_0_s.png" onclick="unitselect(91,this.src)">
+                </div>
+                <div class="filterDiv epic dagger" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10092_0_s.png" onclick="unitselect(92,this.src)">
+                </div>
+                <div class="filterDiv legend sword" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10093_0_s.png" onclick="unitselect(93,this.src)">
+                </div>
+                <div class="filterDiv legend dagger multihit" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10094_0_s.png" onclick="unitselect(94,this.src)">
+                </div>
+                <div class="filterDiv legend staff" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10095_0_s.png" onclick="unitselect(95,this.src)">
+                </div>
+                <div class="filterDiv legend dagger" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10097_0_s.png" onclick="unitselect(97,this.src)">
+                </div>
+                <div class="filterDiv legend spear" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10098_0_s.png" onclick="unitselect(98,this.src)">
+                </div>
+                <div class="filterDiv legend spear" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10099_0_s.png" onclick="unitselect(99,this.src)">
+                </div>
+                <div class="filterDiv epic axe" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10100_0_s.png" onclick="unitselect(100,this.src)">
+                </div>
+                <div class="filterDiv legend sword" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10103_0_s.png" onclick="unitselect(103,this.src)">
+                </div>
+                <div class="filterDiv epic instrument" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10104_0_s.png" onclick="unitselect(104,this.src)">
+                </div>
+                <div class="filterDiv legend sword" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10106_0_s.png" onclick="unitselect(106,this.src)">
+                </div>
+                <div class="filterDiv epic dagger" style="background-color:#ef80ef;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10113_0_s.png" onclick="unitselect(113,this.src)">
+                </div>
+                <div class="filterDiv legend instrument" style="background-color:#efdfb0;">
+                    <img class="smallCharaImg" src="../img/chara-icons/icon_10123_0_s.png" onclick="unitselect(123,this.src)">
+                </div>
+            </div>
+        </div>
+        <div id="infoWindow">
+            <p id="buttonback">
+                <button onclick="infoWindowDisappear()">Back</button>
+            </p>
+            <table>
+                <tr>
+                    <td id="imagecell" style="width: 30%;" rowspan="2">a</td>
+                    <td id="traittext" style="width: 70%; font-size:x-large; background-color: #FCBDC6;">a</td>
+                </tr>
+                <tr>
+                    <td id="skilltext" style="font-size:x-large; background-color: #fe99aa;">a</td>
+                </tr>
+                <tr>
+                    <td id="unitname" style="text-align: center; font-size: x-large;">a</td>
+                    <td id="unittags">a</td>
+                </tr>
+                <tr>
+                    <td id="nousagi" colspan="2">nousagi review</td>
+                </tr>
+            </table>
+        </div>
+        <div class="github-link">
+            <p style="font-size:x-small;">Issues or bug reports? Project on <a href="https://github.com/natsumi3hara/monmusutd-dps">Github</a>.</p>
+        </div>
+        <link href="../css/filter.css" rel="stylesheet" type="text/css"/>
+        <script src="../scripts/filterpage2.js"></script>
+    </body>
+</html>

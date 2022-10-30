@@ -1,0 +1,94 @@
+.nav-link {
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav-menu {
+    width: 100%;
+    background-color: #b4b4b4;
+    padding-left: 10px;
+}
+
+.navbar{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.hline {
+  margin: 3px;
+}
+
+.filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 20px;
+    display: none;
+}
+
+  
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  margin: 1px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.legendB{background-color:#efdfb0;}
+.legendB:hover{background-color:#edd58f;}
+.legendB.active{background-color:#ffbf00;}
+.epicB{background-color:#ebaaeb;}
+.epicB:hover{background-color: #ef80ef;}
+.epicB.active{background-color: #ff00ff;}
+.rareB{background-color:#87ceeb;}
+.rareB:hover{background-color: #42c9ff;}
+.rareB.active{background-color: #00abee;}
+.commonB{background-color:#c0c0c0;}
+.commonB:hover{background-color: #aeaeae;}
+.commonB.active{background-color: #808080;}
+
+
+.smallCharaImg {
+  width: 100px;
+}
+
+#infoWindow {
+  display: none;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+tr, td{
+  border: 1px solid black;
+}
