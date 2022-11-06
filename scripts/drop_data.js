@@ -1,2197 +1,2197 @@
 var dropData = {
 	"10000:0-1 漂流してゲシュペンス島": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {}
 	},
 	"10001:0-2 砂浜の小競り合い": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {}
 	},
 	"10002:0-3 海岸線での共闘": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {
 			"Item1": {
 				"dropName": "狩人の弓",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "2001"
 			},
 			"Item2": {
 				"dropName": "戦士の兜",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8101"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item6": {
 				"dropName": "強風の扇",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "3501"
 			}
 		}
 	},
 	"10003:0-4 シーサイドストライク": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {
 			"Item1": {
 				"dropName": "鋼刃の斧",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "1001"
 			},
 			"Item2": {
 				"dropName": "銅の腕輪",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9401"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item6": {
 				"dropName": "ごろつきの剣",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "1201"
 			}
 		}
 	},
 	"10004:0-5 白砂の海道": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {
 			"Item1": {
 				"dropName": "治癒のオーブ",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "3301"
 			},
 			"Item2": {
 				"dropName": "厚革の手袋",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9001"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item6": {
 				"dropName": "壊れかけの楽器",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "3601"
 			}
 		}
 	},
 	"10005:0-6 絶海孤島の海蝕洞": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {
 			"Item1": {
 				"dropName": "戦士長の剣",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "1301"
 			},
 			"Item2": {
 				"dropName": "魔除けのお守り",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9301"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10006:0-7 スクサイ海岸の戦い": {
-		"stamina": 4,
+		"stamina": 8,
 		"drops": {
 			"Item1": {
 				"dropName": "知恵の書",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "3101"
 			},
 			"Item2": {
 				"dropName": "アイアンバックラー",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8001"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10100:1-1 フランシの少年革命戦争": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "盗賊のナイフ",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "1501"
 			},
 			"Item2": {
 				"dropName": "ダテ眼鏡",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "9501"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10101:1-2 テルルによる少年革命戦争　": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "古式短銃",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "2101"
 			},
 			"Item2": {
 				"dropName": "鉄の鎧",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "8301"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10102:1-3 セレンのための少年革命戦争": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "修行者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "3201"
 			},
 			"Item2": {
 				"dropName": "銀の指輪",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "9201"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10103:1-4 森林の三叉路": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "尖鋭な鉄槍",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "1101"
 			},
 			"Item2": {
 				"dropName": "厚革の手袋",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "9001"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10104:1-5 蓮池での戦い": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "鉄の大槌",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "1401"
 			},
 			"Item2": {
 				"dropName": "村人の服",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "8401"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10105:1-6 挟撃の緑林": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "魔術師の杖",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "3001"
 			},
 			"Item2": {
 				"dropName": "戦士の兜",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "8101"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10106:1-7 森の中を翔ける": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "霊木の枝",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "3401"
 			},
 			"Item2": {
 				"dropName": "弓使いの帽子",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "8201"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10107:1-8 超兵器！完全無欠デカイオー！": {
-		"stamina": 5,
+		"stamina": 10,
 		"drops": {
 			"Item1": {
 				"dropName": "狩人の弓",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "2001"
 			},
 			"Item2": {
 				"dropName": "銅の腕輪",
 				"dropCount": 1,
-				"dropProbability": 57,
+				"dropProbability": 38,
 				"dropID": "9401"
 			},
 			"Item3": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item4": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			},
 			"Item5": {
 				"dropName": "神樹の種",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 83,
 				"dropID": "item.material.Bom2"
 			}
 		}
 	},
 	"10200:2-1 イナンナ洞窟のゴースト娘": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "三叉戟",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "1102"
 			},
 			"Item2": {
 				"dropName": "騎士の兜",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "8102"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item6": {
 				"dropName": "烈風の扇",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "3502"
 			}
 		}
 	},
 	"10201:2-2 秘密結社・冥界": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "凶刃の戦斧",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "1002"
 			},
 			"Item2": {
 				"dropName": "戦士の手袋",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "9002"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item6": {
 				"dropName": "カッパーサーベル",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "1202"
 			}
 		}
 	},
 	"10202:2-3 地底の総統ロッティ": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "ナイトソード",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "1302"
 			},
 			"Item2": {
 				"dropName": "ガンナーハット",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "8202"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item6": {
 				"dropName": "三日月のハープ",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "3602"
 			}
 		}
 	},
 	"10203:2-4 煌めく水晶の洞窟": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "巨鋼の戦槌",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "1402"
 			},
 			"Item2": {
 				"dropName": "魔法の腕輪",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "9402"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10204:2-5 奇妙な石像": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "名手の弓",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "2002"
 			},
 			"Item2": {
 				"dropName": "ミスリルアーマー",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "8302"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10205:2-6 暗闇に轟く叫び": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "改造短銃",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "2102"
 			},
 			"Item2": {
 				"dropName": "ジェイドリング",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "9202"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10206:2-7 憑依された王国騎士団": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "一流術師の杖",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "3002"
 			},
 			"Item2": {
 				"dropName": "商人の服",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "8402"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10207:2-8 双角の王者": {
-		"stamina": 6,
+		"stamina": 12,
 		"drops": {
 			"Item1": {
 				"dropName": "賢人の書",
 				"dropCount": 1,
-				"dropProbability": 23,
+				"dropProbability": 15,
 				"dropID": "3102"
 			},
 			"Item2": {
 				"dropName": "知略の眼鏡",
 				"dropCount": 1,
-				"dropProbability": 38,
+				"dropProbability": 25,
 				"dropID": "9502"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10300:3-1 灼熱のニニブ砂漠": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "巡礼者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "3202"
 			},
 			"Item2": {
 				"dropName": "ナイトシールド",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8002"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10301:3-2 砂漠の朝にもぎもぎタンタル": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "生命のオーブ",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "3302"
 			},
 			"Item2": {
 				"dropName": "騎士の兜",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8102"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10302:3-3 オアシスの首なし騎士": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "アサシンダガー",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "1502"
 			},
 			"Item2": {
 				"dropName": "邪視除けのお守り",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9302"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10303:3-4 超攻撃的破壊護身術": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "精霊樹の枝",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "3402"
 			},
 			"Item2": {
 				"dropName": "ガンナーハット",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8202"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10304:3-5 陽炎の中に旗をかかげて": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "三叉戟",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "1102"
 			},
 			"Item2": {
 				"dropName": "戦士の手袋",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9002"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10305:3-6 砂漠にワイバーンは舞うのか": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "凶刃の戦斧",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "1002"
 			},
 			"Item2": {
 				"dropName": "ミスリルアーマー",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8302"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10306:3-7 砂海に留まる敵陣を討て": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "ナイトソード",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "1302"
 			},
 			"Item2": {
 				"dropName": "魔法の腕輪",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "9402"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10307:3-8 一騎当千の竜騎士シスイ": {
-		"stamina": 7,
+		"stamina": 14,
 		"drops": {
 			"Item1": {
 				"dropName": "巨鋼の戦槌",
 				"dropCount": 1,
-				"dropProbability": 27,
+				"dropProbability": 18,
 				"dropID": "1402"
 			},
 			"Item2": {
 				"dropName": "商人の服",
 				"dropCount": 1,
-				"dropProbability": 45,
+				"dropProbability": 30,
 				"dropID": "8402"
 			},
 			"Item3": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item4": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			},
 			"Item5": {
 				"dropName": "神樹の果実",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 78,
 				"dropID": "item.material.Bom3"
 			}
 		}
 	},
 	"10400:4-1 常夏の楽園？グドゥド海岸": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "槍斧・ハルバード",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "1103"
 			},
 			"Item2": {
 				"dropName": "栄光の腕輪",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9403"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item6": {
 				"dropName": "暴風の扇",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "3503"
 			}
 		}
 	},
 	"10401:4-2 波打ち際のワーペンギン娘": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "ラブリウス",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "1003"
 			},
 			"Item2": {
 				"dropName": "聖騎士の手袋",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item6": {
 				"dropName": "タルワール",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "1203"
 			}
 		}
 	},
 	"10402:4-3 魚は海の上だと皿の上": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "ミスリルソード",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "1303"
 			},
 			"Item2": {
 				"dropName": "神々の祝福のお守り",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9303"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item6": {
 				"dropName": "賢者のハープ",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "3603"
 			}
 		}
 	},
 	"10403:4-4 お魚はエターナルフレンド": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "モーニングスター",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "1403"
 			},
 			"Item2": {
 				"dropName": "聖騎士の大盾",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "8003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10404:4-5 海上の王国騎士団": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "流星の弓",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "2003"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9503"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10405:4-6 荒波にも折れない心": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "リベリオン",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "2103"
 			},
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9203"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10406:4-7 バナナボートに揺られて": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "大賢者の宝玉杖",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "3003"
 			},
 			"Item2": {
 				"dropName": "栄光の腕輪",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9403"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10407:4-8 巨大魔導巡洋艦カッツォ": {
-		"stamina": 8,
+		"stamina": 16,
 		"drops": {
 			"Item1": {
 				"dropName": "真実の書",
 				"dropCount": 1,
-				"dropProbability": 15,
+				"dropProbability": 10,
 				"dropID": "3103"
 			},
 			"Item2": {
 				"dropName": "聖騎士の手袋",
 				"dropCount": 1,
-				"dropProbability": 30,
+				"dropProbability": 20,
 				"dropID": "9003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 68,
+				"dropProbability": 45,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10500:5-1 決戦の地ムスタバッル溶岩地帯": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "聖者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "3203"
 			},
 			"Item2": {
 				"dropName": "神々の祝福のお守り",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9303"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10501:5-2 紅蓮の翼が空を舞う": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "回生のオーブ",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "3303"
 			},
 			"Item2": {
 				"dropName": "聖騎士の大盾",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "8003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10502:5-3 飛んで火にいる鉛玉": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "短刀・狼牙",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "1503"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9503"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10503:5-4 もう一人の私と私と私とわたし": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "神樹の枝",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "3403"
 			},
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9203"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10504:5-5 クローンズマグマ": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "槍斧・ハルバード",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "1103"
 			},
 			"Item2": {
 				"dropName": "栄光の腕輪",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9403"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10505:5-6 業火の裏切り": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "ラブリウス",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "1003"
 			},
 			"Item2": {
 				"dropName": "聖騎士の手袋",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10506:5-7 オールフォーマスター": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "ミスリルソード",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "1303"
 			},
 			"Item2": {
 				"dropName": "神々の祝福のお守り",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "9303"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10507:5-8 歴戦の覇者Gデカイオー": {
-		"stamina": 9,
+		"stamina": 18,
 		"drops": {
 			"Item1": {
 				"dropName": "モーニングスター",
 				"dropCount": 1,
-				"dropProbability": 18,
+				"dropProbability": 12,
 				"dropID": "1403"
 			},
 			"Item2": {
 				"dropName": "聖騎士の大盾",
 				"dropCount": 1,
-				"dropProbability": 35,
+				"dropProbability": 23,
 				"dropID": "8003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10600:6-1 そうだエンキ神殿、行こう。": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "聖騎士の兜",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "8103"
 			},
 			"Item2": {
 				"dropName": "神々の祝福のお守り",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9303"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10601:6-2 謎解き勝負でボッシューダ": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "タルワール",
 				"dropCount": 1,
-				"dropProbability": 21,
+				"dropProbability": 14,
 				"dropID": "1203"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9503"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10602:6-3 体力勝負でパワーを示せ": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "カウボーイハット",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "8203"
 			},
 			"Item2": {
 				"dropName": "聖騎士の手袋",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10603:6-4 本当の試練？暴走するフェルミ": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "暴風の扇",
 				"dropCount": 1,
-				"dropProbability": 21,
+				"dropProbability": 14,
 				"dropID": "3503"
 			},
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9203"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10604:6-5 まるで複雑な迷路の様な": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "司祭の服",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "8403"
 			},
 			"Item2": {
 				"dropName": "聖騎士の大盾",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "8003"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10605:6-6 えっちさ全開！最後の守護者": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "賢者のハープ",
 				"dropCount": 1,
-				"dropProbability": 21,
+				"dropProbability": 14,
 				"dropID": "3603"
 			},
 			"Item2": {
 				"dropName": "栄光の腕輪",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9403"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10606:6-7 レッツ、触手パーティー！": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "ドラゴンアーマー",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "8303"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9503"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10607:6-8 超大型触手ビッグマミー": {
-		"stamina": 10,
+		"stamina": 20,
 		"drops": {
 			"Item1": {
 				"dropName": "タルワール",
 				"dropCount": 1,
-				"dropProbability": 21,
+				"dropProbability": 14,
 				"dropID": "1203"
 			},
 			"Item2": {
 				"dropName": "マジックリング",
 				"dropCount": 1,
-				"dropProbability": 39,
+				"dropProbability": 26,
 				"dropID": "9203"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 98,
+				"dropProbability": 65,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10700:7-1 ついに上陸！ラ：パーツ大陸": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "騎士王の盾",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "8004"
 			},
 			"Item2": {
 				"dropName": "カウボーイハット",
 				"dropCount": 1,
-				"dropProbability": 44,
+				"dropProbability": 29,
 				"dropID": "8203"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10701:7-2 本隊合流、四面楚歌": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "大賢者の宝玉杖",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "3003"
 			},
 			"Item2": {
 				"dropName": "エターナルリング",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9204"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10702:7-3 緑豊かな大地の騒乱": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "ディザイアハンド",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9004"
 			},
 			"Item2": {
 				"dropName": "ドラゴンアーマー",
 				"dropCount": 1,
-				"dropProbability": 44,
+				"dropProbability": 29,
 				"dropID": "8303"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10703:7-4 覇王を夢見る少女、黒竜襲来！": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "流星の弓",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "2003"
 			},
 			"Item2": {
 				"dropName": "予知の眼鏡",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9504"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10704:7-5 いざ進めや樹氷宮殿": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "勝利の腕輪",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9404"
 			},
 			"Item2": {
 				"dropName": "司祭の服",
 				"dropCount": 1,
-				"dropProbability": 44,
+				"dropProbability": 29,
 				"dropID": "8403"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10705:7-6 氷結ぶ宮殿内部": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "聖者の錫杖",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "3203"
 			},
 			"Item2": {
 				"dropName": "予知の眼鏡",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9504"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10706:7-7 氷花散らす華麗なる合戦": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "エターナルリング",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9204"
 			},
 			"Item2": {
 				"dropName": "エレガントフレーム",
 				"dropCount": 1,
-				"dropProbability": 44,
+				"dropProbability": 29,
 				"dropID": "9503"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
 	},
 	"10707:7-8 帝国最終兵器プシュキニア": {
-		"stamina": 11,
+		"stamina": 22,
 		"drops": {
 			"Item1": {
 				"dropName": "真実の書",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "3103"
 			},
 			"Item2": {
 				"dropName": "天下のお守り",
 				"dropCount": 1,
-				"dropProbability": 24,
+				"dropProbability": 16,
 				"dropID": "9304"
 			},
 			"Item3": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 2,
-				"dropProbability": 83,
+				"dropProbability": 55,
 				"dropID": "item.material.Bom4"
 			},
 			"Item4": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			},
 			"Item5": {
 				"dropName": "神樹の豊穣枝",
 				"dropCount": 1,
-				"dropProbability": 100,
+				"dropProbability": 75,
 				"dropID": "item.material.Bom4"
 			}
 		}
@@ -3076,6 +3076,12 @@ var dropData = {
 				"dropCount": 40,
 				"dropProbability": 100,
 				"dropID": "ssr_all"
+			},
+			"Item2": {
+				"dropName": "ビンゴ抽選券",
+				"dropCount": 10,
+				"dropProbability": 100,
+				"dropID": "bingo_lotteryticket221107"
 			}
 		}
 	},
@@ -5504,6 +5510,108 @@ var dropData = {
 				"dropCount": 220,
 				"dropProbability": 100,
 				"dropID": "pt_harphiasyndrome"
+			}
+		}
+	},
+	"70230:E-1 宝を巡って島内妖怪大騒動": {
+		"stamina": 8,
+		"drops": {
+			"Item1": {
+				"dropName": "鋼刃の斧",
+				"dropCount": 1,
+				"dropProbability": 20,
+				"dropID": "1001"
+			},
+			"Item2": {
+				"dropName": "魔除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "9301"
+			}
+		}
+	},
+	"70231:E-2 大船泥船？護る者スプリガン娘": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "戦士長の剣",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "1301"
+			},
+			"Item2": {
+				"dropName": "戦士の兜",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "8101"
+			}
+		}
+	},
+	"70232:E-3 偽物の正体見たり紙人形": {
+		"stamina": 12,
+		"drops": {
+			"Item1": {
+				"dropName": "古式短銃",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "2101"
+			},
+			"Item2": {
+				"dropName": "鉄の鎧",
+				"dropCount": 1,
+				"dropProbability": 45,
+				"dropID": "8301"
+			}
+		}
+	},
+	"70233:E-4 偽りのエージェントゴースト１": {
+		"stamina": 14,
+		"drops": {
+			"Item1": {
+				"dropName": "ナイトソード",
+				"dropCount": 1,
+				"dropProbability": 18,
+				"dropID": "1302"
+			},
+			"Item2": {
+				"dropName": "ナイトシールド",
+				"dropCount": 1,
+				"dropProbability": 30,
+				"dropID": "8002"
+			}
+		}
+	},
+	"70240:EX1　偽物の正体見たり紙人形 ": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "凶刃の戦斧",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "1002"
+			},
+			"Item2": {
+				"dropName": "邪視除けのお守り",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "9302"
+			}
+		}
+	},
+	"70241:EX2　偽りのエージェントゴースト１ ": {
+		"stamina": 18,
+		"drops": {
+			"Item1": {
+				"dropName": "巡礼者の錫杖",
+				"dropCount": 1,
+				"dropProbability": 24,
+				"dropID": "3202"
+			},
+			"Item2": {
+				"dropName": "知略の眼鏡",
+				"dropCount": 1,
+				"dropProbability": 39,
+				"dropID": "9502"
 			}
 		}
 	},
