@@ -2,3 +2,6 @@
 78,79 - ablist023
 64,81 - ablist036
 95,98 - ablist098
+77 - ablist188
+
+ablist188 has all above ^
