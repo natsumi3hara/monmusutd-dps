@@ -2,15 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Characters</title>
+        <title>DPS計算機</title>
         <link href="../css/dps.css" rel="stylesheet" type="text/css"/>
         <script src="../scripts/dpsChars/27.js"></script>
         <script src="../scripts/statsCalc/13021.js"></script>
         <script src="../scripts/attach_ability_data.js"></script>
         <script src="../scripts/dpsCalc.js"></script>
         <script>
-            var charID = 27
-            var baseClass = 13021
+            var charID = 106;
+            var baseClass = 12011;
+            var selfBuff = {"HP":[0,0],"Atk":[0,0],"pDef":[0,0],"mDef":[0,0],"aSpd":[0,0],"PAD":[0,0],"Range":[0,0]};
+            var specialTarget = {
+                "CC0":{"Ground":[140,150]},
+                "CC1":{"Ground":[140,150],"Flying":[120,120]},
+                "CC2":{"Ground":[140,150],"Flying":[150,150]},
+                "CC3":{"Ground":[140,150],"Flying":[170,170]},
+            };
         </script>
     </head>
     <body>
@@ -20,7 +27,7 @@
             </p>
             <p id="calc-chara-id" style="display:none;">o</p>
             <table>
-                <td>① 戦闘前</td>
+                <td>① 戦闘前 （パラメータは戦闘前なので 獣神/スキル はまだ反映されてない）</td>
             </table>
             <table>
                 <tr>
@@ -122,7 +129,7 @@
                         完凸?<br>
                         <input type="checkbox" id="awakeCheck">
                     </td>
-                    <td style="text-align: center;">攻撃硬直→</td>
+                    <td style="text-align: center;">攻撃硬直(f)→</td>
                     <td  id="dps-stat-value-PAD" style="text-align: center;">PAD_stat</td>
                     <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">射程→</td>
                     <td colspan="1" id="dps-stat-value-Range" style="text-align:center; width:7%;">Range_stat</td>

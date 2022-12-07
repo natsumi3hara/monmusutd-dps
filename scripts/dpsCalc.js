@@ -109,12 +109,10 @@ function calculateStat(level,cc,type){
         rawStat = Math.floor(rawStat * (100 + attachTable[0])/100 * (100 + selfBuffvalue)/100 + attachTable[1])
     }
     //ATTACH AND SELF-BUFF STAT//
-    console.log(equipValues("1",type,cc) + equipValues("2",type,cc) + equipValues("3",type,cc) + equipValues("4",type,cc))
+    //EQUIPMENT STAT//
+    rawStat += equipValues("1",type,cc) + equipValues("2",type,cc) + equipValues("3",type,cc) + equipValues("4",type,cc)
     //EQUIPMENT STAT//
     
-
-
-
     //For display//
     document.getElementById("dps-stat-value-"+type).innerHTML = rawStat;
 }
