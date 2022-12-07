@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>DPS計算機</title>
+        <link href="../css/dps.css" rel="stylesheet" type="text/css"/>
+        <script src="../scripts/dpsChars/106.js"></script>
+        <script src="../scripts/statsCalc/12011.js"></script>
+        <script src="../scripts/attach_ability_data.js"></script>
+        <script src="../scripts/dpsCalc.js"></script>
+        <script>
+            var charID = 106;
+            var baseClass = 12011;
+            var selfBuff = {"HP":[0,0],"Atk":[10,20],"pDef":[0,0],"mDef":[0,0],"aSpd":[0,0],"PAD":[0,0],"Range":[0,0]};
+            var specialTarget = {
+                "CC0":{"Ground":[140,150]},
+                "CC1":{"Ground":[140,150],"Flying":[120,120]},
+                "CC2":{"Ground":[140,150],"Flying":[150,150]},
+                "CC3":{"Ground":[140,150],"Flying":[170,170]},
+            };
+        </script>
+    </head>
+    <body>
+        <div id="chara-info">
+            <p id="buttonback">
+                <button onclick="location.href='../dps/index.html'" type="button">戻る</button>
+            </p>
+            <p id="calc-chara-id" style="display:none;">o</p>
+            <table>
+                <td>① 戦闘前</td>
+            </table>
+            <table>
+                <tr>
+                    <td id="dps-picture-cell" class="cell-legend" rowspan="4" colspan="3">
+                        <img id="dps-picture" src='../img/chara-icons/icon_10106_0.png'>
+                    </td>
+                    <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">HP→</td>
+                    <td colspan="1" id="dps-stat-value-HP" style="text-align:center; width:7%;">HP_stat</td>
+                    <td style="width: 15%; text-align: center;">
+                        スキル
+                        <select name="skill-alt-select" id="skill-alt-select" style="width: 40%; font-size: 100%; margin-left: 5%;" oninput="skilltext()">
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span style="margin-left: 5%;">レベル:</span>
+                        <select name="skill-level-select" id="skill-level-select" style="width: 40%; font-size: 100%; margin-left: 0%;" oninput="skilltext()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td id="skill-text" style="width: 40%;">skill_text</td>
+                </tr>
+                <tr>
+                    <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">攻撃力→</td>
+                    <td colspan="1" id="dps-stat-value-Atk" style="text-align:center; width:7%;">Atk_stat</td>
+                    <td id="talent3" style="width: 8%; text-align: center;">talent3_text</td>
+                    <td style="text-align: center;">
+                        <input type="checkbox" id="talent3check">
+                    </td>
+                    <td style="text-align: left;">
+                        <span>装備:</span><br>
+                        武器<input type="checkbox" id="equip1">&nbsp;&nbsp;&nbsp;
+                        頭部<input type="checkbox" id="equip2">&nbsp;&nbsp;&nbsp;
+                        胴部<input type="checkbox" id="equip3">&nbsp;&nbsp;&nbsp;
+                        装飾品<input type="checkbox" id="equip4">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">物理防御→</td>
+                    <td colspan="1" id="dps-stat-value-pDef" style="text-align:center; width:7%;">pDef_stat</td>
+                    <td id="talent4" style="width: 8%; text-align: center;">talent4_text</td>
+                    <td style="text-align: center;">
+                        <input type="checkbox" id="talent4check">
+                    </td>
+                    <td>text4</td>
+                </tr>
+                <tr>
+                    <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">魔法防御→</td>
+                    <td colspan="1" id="dps-stat-value-mDef" style="text-align:center; width:7%;">mDef_stat</td>
+                    <td id="talent5" style="width: 8%; text-align: center;">talent5_text</td>
+                    <td style="text-align: center;">
+                        <input type="checkbox" id="talent5check">
+                    </td>
+                    <td>text5</td>
+                </tr>
+                <tr style="height:50px;">
+                    <td colspan="2" class="parameter-input" style="text-align:center; width: 15%;">
+                        Lv <input id="level-input" type="number" min="1" max="120" style="width: 50px;"><br>
+                        (CC <input id="cc-input" type="number" min="0" max="3" style="width: 30px;">)
+                    </td>
+                    <td colspan="1" class="go-button" style="width: 5%; text-align: center;">
+                        <img id="go-button-img" src='../img/ui-icons/Story_BtnArrowRightOff.png' style="cursor: pointer;" onclick="calculateStats()">
+                        <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">攻撃速度→</td>
+                        <td colspan="1" id="dps-stat-value-aSpd" style="text-align:center; width:7%;">aSpd_stat</td>
+                    <td colspan="1" rowspan="2">
+                        <span style="margin-left: 5%;">獣神:</span><br>
+                        <select name="db-select" id="db-select" style="width: 90%; font-size: 100%; margin-left: 5%;">
+                            <option value="0">なし</option>
+                            <option value="4">ビビ神</option>
+                            <option value="1">ニーズホッグ</option>
+                            <option value="2">ファロルーチェ</option>
+                            <option value="3">パズズ</option>
+                            <option value="5">ソラス</option>
+                            <option value="7">ベヒモス</option>
+                            <option value="8">ビッキーヌ</option>
+                            <option value="9">ビビ神(メイド)</option>
+                        </select><br>
+                        <span style="margin-left: 5%;">加護Lv:</span><br>
+                        <select name="db-level-select" id="db-level-select" style="width: 90%; font-size: 100%; margin-left: 5%;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td>text2</td>
+                    <td>
+                        <select id="subskill1" style="font-size: 110%;">
+                        </select>
+                    </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td style="text-align: center;">
+                        完凸?<br>
+                        <input type="checkbox" id="awakeCheck">
+                    </td>
+                    <td style="text-align: center;">攻撃硬直(f)→</td>
+                    <td  id="dps-stat-value-PAD" style="text-align: center;">PAD_stat</td>
+                    <td colspan="1" class="dps-stat-label" style="text-align:center; width:8%;">射程→</td>
+                    <td colspan="1" id="dps-stat-value-Range" style="text-align:center; width:7%;">Range_stat</td>
+                    <td>text3</td>
+                    <td>
+                        <select id="subskill2" style="font-size: 110%;">
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+            <table>
+                <td>② 戦闘中</td>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 20%;">text</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="calc-skill-data">text</td>
+                    <td style="text-align: center;">pb_from_self% + <input id="pb-input" type="number" min="0" style="width: 30px;" value="0">%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="github-link">
+            <p style="font-size:x-small;">Issues or bug reports? Project on <a href="https://github.com/natsumi3hara/monmusutd-dps">Github</a>.</p>
+        </div>
+    </body>
+</html>
