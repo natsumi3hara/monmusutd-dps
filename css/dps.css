@@ -2,10 +2,24 @@ table {
     border: 1px solid black;
     width: 100%;
     font-size: 100%;
-  }
-  tr, td{
+    background-color: #ffeeee;
+}
+tr, td{
     border: 1px solid black;
-  }
+}
+
+.display-text{
+    background-color: #ff8e9f;
+}
+
+.input-field{
+    background-color: #feccd4;
+}
+
+.unused-cell{
+    background-color: #777;
+    color: #777;
+}
 
 #dps-picture-cell{
     width: 20%;
@@ -29,4 +43,40 @@ table {
     width: 30px;
     height: 30px;
     margin-bottom: -5px;
+}
+
+.collapsible-button {
+    background-color: #b3b3b3;
+    color: #000000;
+    cursor: pointer;
+    width: 100%;
+    border: 1px;
+    text-align: left;
+    outline: none;
+}
+  
+.active, .collapsible-button:hover {
+    background-color: #808080;
+}
+  
+.collapsible-content {
+    display: none;
+    overflow: hidden;
+    background-color: #ffd0d0;
+}
+  
+.party-buff-img-container{
+    width: 10%;
+}
+.party-buff-img{
+    width: 100%;
+}
+.party-buff-check{
+    width: 10%;
+    text-align: center;
+}
+
+.larger-check{
+    width:25px;
+    height:25px;
 }

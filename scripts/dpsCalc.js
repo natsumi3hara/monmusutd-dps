@@ -100,9 +100,7 @@ function calculateStat(level,cc,type){
 
     //ATTACH AND SELF-BUFF STAT//
     let selfBuffvalue = 0
-    if (document.getElementById("awakeCheck").checked) {
-        selfBuffvalue = selfBuff[type][1]
-    } else {selfBuffvalue = selfBuff[type][0]}
+    selfBuffvalue = selfBuff[type][0]
     if (attachTable[2] != -1){
         rawStat = attachTable[2];
     } else {
