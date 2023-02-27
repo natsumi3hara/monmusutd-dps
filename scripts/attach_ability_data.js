@@ -43,7 +43,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1002,
@@ -78,7 +81,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1003,
@@ -113,7 +119,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1004,
@@ -148,7 +157,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1005,
@@ -183,7 +195,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1006,
@@ -218,7 +233,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1007,
@@ -253,7 +271,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1008,
@@ -288,7 +309,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1009,
@@ -323,7 +347,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1010,
@@ -358,7 +385,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1011,
@@ -393,7 +423,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1012,
@@ -428,7 +461,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1013,
@@ -463,7 +499,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1014,
@@ -498,7 +537,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1015,
@@ -533,7 +575,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1016,
@@ -580,7 +625,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1017,
@@ -627,7 +675,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1018,
@@ -674,7 +725,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1019,
@@ -721,7 +775,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1020,
@@ -768,7 +825,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1021,
@@ -815,7 +875,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1022,
@@ -850,7 +913,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1023,
@@ -885,7 +951,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1024,
@@ -920,7 +989,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1025,
@@ -965,7 +1037,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1026,
@@ -1010,7 +1085,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1027,
@@ -1055,7 +1133,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1028,
@@ -1090,7 +1171,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1029,
@@ -1125,7 +1209,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1030,
@@ -1160,7 +1247,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1031,
@@ -1205,7 +1295,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1032,
@@ -1250,7 +1343,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1033,
@@ -1295,7 +1391,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1034,
@@ -1330,7 +1429,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1035,
@@ -1365,7 +1467,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1036,
@@ -1400,7 +1505,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1037,
@@ -1445,7 +1553,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1038,
@@ -1490,7 +1601,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1039,
@@ -1535,7 +1649,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1040,
@@ -1591,7 +1708,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1041,
@@ -1647,7 +1767,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1042,
@@ -1703,7 +1826,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1043,
@@ -1759,7 +1885,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1044,
@@ -1815,7 +1944,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1045,
@@ -1871,7 +2003,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1046,
@@ -1906,7 +2041,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1047,
@@ -1941,7 +2079,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1048,
@@ -1976,7 +2117,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1049,
@@ -2023,7 +2167,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1050,
@@ -2058,7 +2205,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1051,
@@ -2105,7 +2255,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1052,
@@ -2140,7 +2293,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1053,
@@ -2196,7 +2352,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1054,
@@ -2264,7 +2423,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1055,
@@ -2320,7 +2482,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1056,
@@ -2399,7 +2564,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1057,
@@ -2455,7 +2623,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1058,
@@ -2534,7 +2705,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1059,
@@ -2603,7 +2777,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1060,
@@ -2682,7 +2859,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1061,
@@ -2750,7 +2930,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1062,
@@ -2846,7 +3029,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1063,
@@ -2932,7 +3118,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1064,
@@ -2988,7 +3177,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1065,
@@ -3044,7 +3236,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1066,
@@ -3100,7 +3295,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1067,
@@ -3145,7 +3343,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1068,
@@ -3201,7 +3402,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1069,
@@ -3257,7 +3461,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1070,
@@ -3336,7 +3543,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1071,
@@ -3404,7 +3614,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1072,
@@ -3439,21 +3652,45 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1073,
       "rarity": 1397969457,
-      "name": "ハンティングアイ",
-      "kana": "はんてぃんぐあい",
-      "text": "基本射程が+10％されるが攻撃力が25％減少",
+      "name": "魔導の心得",
+      "kana": "まどうのこころえ",
+      "text": "攻撃力+12%、ソーサラー系クラスにセット時追加で射程+10",
       "restrictionForClass": 0,
       "restrictionForTribe": 0,
       "restrictionForElement": 0,
       "restrictionForFamily": 0,
       "talentList": [
         {
-          "talentId": 36,
+          "talentId": 6,
+          "param": [
+            {
+              "num": [
+                12
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        },
+        {
+          "talentId": 38,
           "param": [
             {
               "num": [
@@ -3471,31 +3708,25 @@ const attachData = {
           "timing": 23,
           "range": 1,
           "triggerData": [],
-          "activeData": []
-        },
-        {
-          "talentId": 7,
-          "param": [
+          "activeData": [
             {
+              "type": 1006,
               "num": [
-                25
-              ]
+                5
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
             }
-          ],
-          "maxParam": [
-            {
-              "num": [
-                0
-              ]
-            }
-          ],
-          "timing": 23,
-          "range": 1,
-          "triggerData": [],
-          "activeData": []
+          ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1074,
@@ -3593,7 +3824,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1075,
@@ -3628,7 +3862,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1076,
@@ -3696,7 +3933,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1077,
@@ -3775,7 +4015,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1078,
@@ -3831,7 +4074,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1079,
@@ -3899,7 +4145,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1080,
@@ -3978,7 +4227,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1081,
@@ -4034,7 +4286,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1082,
@@ -4102,7 +4357,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1083,
@@ -4137,7 +4395,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1084,
@@ -4172,7 +4433,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1085,
@@ -4228,7 +4492,10 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1086,
@@ -4307,7 +4574,10 @@ const attachData = {
           ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1087,
@@ -4373,25 +4643,33 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1088,
-      "rarity": 1397969457,
-      "name": "追加スキル22",
-      "kana": "ついか34",
-      "text": "物理防御+36％",
+      "rarity": 5460529,
+      "name": "生命力吸収+攻撃待機短縮",
+      "kana": "せいめいりょくきゅうしゅう+こうげきたんしゅく",
+      "text": "攻撃時、HPが最大値の2％回復、攻撃後の待機時間を20％短縮",
       "restrictionForClass": 0,
       "restrictionForTribe": 0,
       "restrictionForElement": 0,
       "restrictionForFamily": 0,
       "talentList": [
         {
-          "talentId": 11,
+          "talentId": 1064,
           "param": [
             {
               "num": [
-                18
+                2
+              ]
+            },
+            {
+              "num": [
+                100
               ]
             }
           ],
@@ -4400,64 +4678,20 @@ const attachData = {
               "num": [
                 0
               ]
-            }
-          ],
-          "timing": 23,
-          "range": 1,
-          "triggerData": [],
-          "activeData": []
-        }
-      ],
-      "recipeId": 0
-    },
-    {
-      "id": 1089,
-      "rarity": 1397969457,
-      "name": "追加スキル23",
-      "kana": "ついか35",
-      "text": "物理防御+37％",
-      "restrictionForClass": 0,
-      "restrictionForTribe": 0,
-      "restrictionForElement": 0,
-      "restrictionForFamily": 0,
-      "talentList": [
-        {
-          "talentId": 11,
-          "param": [
-            {
-              "num": [
-                19
-              ]
-            }
-          ],
-          "maxParam": [
+            },
             {
               "num": [
                 0
               ]
             }
           ],
-          "timing": 23,
+          "timing": 1,
           "range": 1,
           "triggerData": [],
           "activeData": []
-        }
-      ],
-      "recipeId": 0
-    },
-    {
-      "id": 1090,
-      "rarity": 1397969457,
-      "name": "追加スキル24",
-      "kana": "ついか36",
-      "text": "物理防御+38％",
-      "restrictionForClass": 0,
-      "restrictionForTribe": 0,
-      "restrictionForElement": 0,
-      "restrictionForFamily": 0,
-      "talentList": [
+        },
         {
-          "talentId": 11,
+          "talentId": 32,
           "param": [
             {
               "num": [
@@ -4478,25 +4712,195 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1089,
+      "rarity": 1397969457,
+      "name": "まったり充電寝正月",
+      "kana": "まったりじゅうでんねしょうがつ",
+      "text": "非スキル中通常の攻撃を行わなくなるが\r\n1秒毎にスキル準備時間-1秒\r\n(サポーター系クラスは効果の対象外)",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 1081,
+          "param": [
+            {
+              "num": [
+                30
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                30
+              ],
+              "option": [
+                "%"
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 15,
+              "num": [
+                0
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": [
+            {
+              "type": 1006,
+              "num": [
+                8
+              ],
+              "option": [
+                "!"
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ]
+        },
+        {
+          "talentId": 69,
+          "param": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [
+            {
+              "type": 15,
+              "num": [
+                0
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 1006,
+              "num": [
+                8
+              ],
+              "option": [
+                "!"
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1090,
+      "rarity": 1397969457,
+      "name": "疾風怒濤",
+      "kana": "しっぷうどとう",
+      "text": "移動中、攻撃力+100％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 6,
+          "param": [
+            {
+              "num": [
+                100
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [
+            {
+              "type": 2,
+              "num": [
+                1
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1091,
       "rarity": 1397969457,
-      "name": "追加スキル25",
-      "kana": "ついか37",
-      "text": "物理防御+39％",
+      "name": "先手必勝！",
+      "kana": "せんてひっしょう",
+      "text": "配置してから30秒間、与ダメージ1.5倍",
       "restrictionForClass": 0,
       "restrictionForTribe": 0,
       "restrictionForElement": 0,
       "restrictionForFamily": 0,
       "talentList": [
         {
-          "talentId": 11,
+          "talentId": 1009,
           "param": [
             {
               "num": [
-                21
+                150
               ]
             }
           ],
@@ -4507,31 +4911,144 @@ const attachData = {
               ]
             }
           ],
-          "timing": 23,
+          "timing": 1,
           "range": 1,
-          "triggerData": [],
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                900
+              ],
+              "option": [
+                "<="
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": []
+        },
+        {
+          "talentId": 1053,
+          "param": [
+            {
+              "num": [
+                100472
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                900
+              ],
+              "option": [
+                "<="
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 2001,
+              "num": [
+                30
+              ],
+              "option": [
+                "%"
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1092,
       "rarity": 1397969457,
-      "name": "追加スキル26",
-      "kana": "ついか38",
-      "text": "物理防御+40％",
+      "name": "ポイズンボム",
+      "kana": "ぽいずんぼむ",
+      "text": "配置時に周囲の敵に攻撃力2.5倍のダメージを与え、高確率で猛毒状態にする",
       "restrictionForClass": 0,
       "restrictionForTribe": 0,
       "restrictionForElement": 0,
       "restrictionForFamily": 0,
       "talentList": [
         {
-          "talentId": 11,
+          "talentId": 1107,
           "param": [
             {
               "num": [
-                22
+                1
+              ]
+            },
+            {
+              "num": [
+                150
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            },
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                3
+              ],
+              "option": [
+                ">="
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 2001,
+              "num": [
+                4
+              ],
+              "option": [
+                "<="
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": []
+        },
+        {
+          "talentId": 1053,
+          "param": [
+            {
+              "num": [
+                10034
               ]
             }
           ],
@@ -4542,31 +5059,207 @@ const attachData = {
               ]
             }
           ],
-          "timing": 23,
+          "timing": 5,
           "range": 1,
           "triggerData": [],
           "activeData": []
+        },
+        {
+          "talentId": 1101,
+          "param": [
+            {
+              "num": [
+                250
+              ]
+            },
+            {
+              "num": [
+                3
+              ]
+            },
+            {
+              "num": [
+                10035
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            },
+            {
+              "num": [
+                0
+              ]
+            },
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 16,
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                3
+              ],
+              "option": [
+                ">="
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 2001,
+              "num": [
+                4
+              ],
+              "option": [
+                "<="
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": [
+            {
+              "type": 12,
+              "num": [
+                1
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ]
+        },
+        {
+          "talentId": 515,
+          "param": [
+            {
+              "num": [
+                80
+              ]
+            },
+            {
+              "num": [
+                190
+              ]
+            },
+            {
+              "num": [
+                9999999
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            },
+            {
+              "num": [
+                0
+              ]
+            },
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 16,
+          "triggerData": [
+            {
+              "type": 2001,
+              "num": [
+                3
+              ],
+              "option": [
+                ">="
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 2001,
+              "num": [
+                4
+              ],
+              "option": [
+                "<="
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ],
+          "activeData": [
+            {
+              "type": 12,
+              "num": [
+                1
+              ],
+              "option": [
+                ""
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ]
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     },
     {
       "id": 1093,
-      "rarity": 1397969457,
-      "name": "追加スキル27",
-      "kana": "ついか39",
-      "text": "物理防御+41％",
+      "rarity": 5460529,
+      "name": "HP強化+リジェネレーション",
+      "kana": "えいちぴぃきょうかりじぇねれーしょん",
+      "text": "HP+20％、HPが1秒ごとに20回復する",
       "restrictionForClass": 0,
       "restrictionForTribe": 0,
       "restrictionForElement": 0,
       "restrictionForFamily": 0,
       "talentList": [
         {
-          "talentId": 11,
+          "talentId": 64,
           "param": [
             {
               "num": [
-                23
+                20
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        },
+        {
+          "talentId": 1,
+          "param": [
+            {
+              "num": [
+                20
               ]
             }
           ],
@@ -4583,7 +5276,375 @@ const attachData = {
           "activeData": []
         }
       ],
-      "recipeId": 0
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1094,
+      "rarity": 5460529,
+      "name": "物理攻撃+魔法攻撃回避",
+      "kana": "ぶつりこうげきまほうこうげきかいひ",
+      "text": "15％の確率で物理攻撃と魔法攻撃を回避",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 1079,
+          "param": [
+            {
+              "num": [
+                15
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 1,
+          "range": 1,
+          "triggerData": [],
+          "activeData": [
+            {
+              "type": 7,
+              "num": [
+                1
+              ],
+              "option": [
+                "|1"
+              ],
+              "target": 1,
+              "targetNum": []
+            },
+            {
+              "type": 8,
+              "num": [
+                1
+              ],
+              "option": [
+                "|1"
+              ],
+              "target": 1,
+              "targetNum": []
+            }
+          ]
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1095,
+      "rarity": 1397969457,
+      "name": "追加スキル30",
+      "kana": "ついか42",
+      "text": "物理防御+44％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                26
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1096,
+      "rarity": 1397969457,
+      "name": "追加スキル31",
+      "kana": "ついか43",
+      "text": "物理防御+45％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                27
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1097,
+      "rarity": 1397969457,
+      "name": "追加スキル32",
+      "kana": "ついか44",
+      "text": "物理防御+46％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                28
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1098,
+      "rarity": 1397969457,
+      "name": "追加スキル33",
+      "kana": "ついか45",
+      "text": "物理防御+47％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                29
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1099,
+      "rarity": 1397969457,
+      "name": "追加スキル34",
+      "kana": "ついか46",
+      "text": "物理防御+48％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                30
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1100,
+      "rarity": 1397969457,
+      "name": "追加スキル35",
+      "kana": "ついか47",
+      "text": "物理防御+49％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                31
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1101,
+      "rarity": 1397969457,
+      "name": "追加スキル36",
+      "kana": "ついか48",
+      "text": "物理防御+50％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                32
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
+    },
+    {
+      "id": 1102,
+      "rarity": 1397969457,
+      "name": "追加スキル37",
+      "kana": "ついか49",
+      "text": "物理防御+51％",
+      "restrictionForClass": 0,
+      "restrictionForTribe": 0,
+      "restrictionForElement": 0,
+      "restrictionForFamily": 0,
+      "talentList": [
+        {
+          "talentId": 11,
+          "param": [
+            {
+              "num": [
+                33
+              ]
+            }
+          ],
+          "maxParam": [
+            {
+              "num": [
+                0
+              ]
+            }
+          ],
+          "timing": 23,
+          "range": 1,
+          "triggerData": [],
+          "activeData": []
+        }
+      ],
+      "recipeId": 0,
+      "skipend": 0,
+      "salePrice": 0,
+      "salable": 0
     }
   ]
 }

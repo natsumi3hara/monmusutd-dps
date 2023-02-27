@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>DPS計算機</title>
+        <link href="../../css/dpsTEST.css" rel="stylesheet" type="text/css"/>
+        <script src="../../scripts/dpsChars/106.js"></script>
+        <script src="../../scripts/statsCalc/12011.js"></script>
+        <script src="../../scripts/attach_ability_data.js"></script>
+        <script src="../../scripts/dpsCalcTEST.js"></script>
+        <script src="../../scripts/equipConvert.js"></script>
+        <script src="../../scripts/statsCalc/partybuff.js"></script>
+        <script src="../../scripts/statsCalc/charaSpecific.js"></script>
+        <script>
+            //possible to take out ratebuffs/add critical here?
+            //critical if class == 14021 and cc == 3
+            var charID = 10106;
+            var charAwaked = false;
+            var baseClass = 12011;
+            var attrEffect = 2;
+            var selfBuff = {"HP":[0,0],"Atk":[0,0],"pDef":[0,0],"mDef":[0,0],"aSpd":[0,0],"PAD":[0,0],"Range":[0,0],"Block":[0,0]};
+            var specialTarget = {
+                //this is rakion's
+                "CC0":{"Ground":[140,150]},
+                "CC1":{"Ground":[140,150],"Flying":[120,120]},
+                "CC2":{"Ground":[140,150],"Flying":[150,150]},
+                "CC3":{"Ground":[140,150],"Flying":[170,170]},
+            };
+        </script>
+    </head>
+    <body>
+        <div id="chara-info">
+            <p id="buttonback">
+                <button onclick="location.href='../../dps/index.html'" type="button">戻る</button>
+            </p>
+        </div>
+        <div id="dps-input-output" style="display:flex;">
+            <div id="dps-input">
+                <div class="dps-tabs dps-input-tabs">
+                    <button class="dps-input-tablink active" style="border-top-left-radius: 15px;" onclick="openTab(event, 'alliedunit','dps-input-tablink')"><img src="../../img/ui-icons/Friend_ImageiconProfile.png"> ユニット</button>
+                    <button class="dps-input-tablink" onclick="openTab(event, 'conditions','dps-input-tablink')"><img src="../../img/ui-icons/Common_BtnQuestionOff.png"> 条件</button>
+                    <button class="dps-input-tablink" style="border-top-right-radius: 15px;" onclick="openTab(event, 'enemyunit','dps-input-tablink')"><img src="../../img/ui-icons/Btl_OmenIcon_0.png"> 敵ユニット</button>
+                </div>
+                <div id="alliedunit" class="dps-input-tablink-content dps-tabcontent" style="display: block;">
+                    <div>
+                        <span>レベル：</span><input id="input-level" type="number" min="1" max="120" value="1" onchange="allDPS();">
+                        <span> CC：</span><input id="input-cc" type="number" min="0" max="3" value="0" onchange="equipImageChange();allDPS();">
+                    </div>
+                    <hr>
+                    <div style="display: flex;">
+                        <div style="width:50%;text-align: center;vertical-align: middle;">
+                            <abbr id="equipweaponabbr" title="" style="cursor: help;">
+                                <img src="../../img/equipment-icons/0000.png" id="equipweapon" class="equip-icon"></abbr>
+                            <input type="checkbox" id="equip1" class="larger-check" style="vertical-align: middle;" onchange="allDPS();">
+                            <abbr id="equipheadabbr" title="" style="cursor: help;">
+                                <img src="../../img/equipment-icons/0000.png" id="equiphead" class="equip-icon"></abbr>
+                            <input type="checkbox" id="equip2" class="larger-check" style="vertical-align: middle;" onchange="allDPS();"><br>
+                            <abbr id="equipbodyabbr" title="" style="cursor: help;">
+                                <img src="../../img/equipment-icons/0000.png" id="equipbody" class="equip-icon"></abbr>
+                            <input type="checkbox" id="equip3" class="larger-check" style="vertical-align: middle;" onchange="allDPS();">
+                            <abbr id="equipaccessoryabbr" title="" style="cursor: help;">
+                                <img src="../../img/equipment-icons/0000.png" id="equipaccessory" class="equip-icon"></abbr>
+                            <input type="checkbox" id="equip4" class="larger-check" style="vertical-align: middle;" onchange="allDPS();">
+                        </div>
+                        <table style="width:50%;text-align: center;vertical-align: middle;">
+                            <tr>
+                                <td><span id="talent3" style="padding:5px;text-align: center;"></span><input type="checkbox" id="talent3check" class="larger-check" style="vertical-align: bottom;" onchange="allDPS();"></td>
+                            </tr>
+                            <tr>
+                                <td><span id="talent4" style="padding:5px;text-align: center;"></span><input type="checkbox" id="talent4check" class="larger-check" style="vertical-align: bottom;" onchange="allDPS();"></td>
+                            </tr>
+                            <tr>
+                                <td><span id="talent5" style="padding:5px;text-align: center;"></span><input type="checkbox" id="talent5check" class="larger-check" style="vertical-align: bottom;" onchange="allDPS();"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <hr>
+                    <span>EXスキル</span>
+                    <select name="skill-alt-select" id="skill-alt-select" style="font-family:mtdfont; width: 20%;" onchange="skilltextreplace();allDPS();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select><br>
+                    <span>スキルレベル</span>
+                    <select name="skill-level-select" id="skill-level-select" style="font-family:mtdfont; width: 20%;" onchange="skilltextreplace();allDPS();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <hr>
+                    <span>サブスキル1</span>
+                    <select id="subskill1" style="font-size: smaller;width:50%;font-family: mtdfont;" onchange="allDPS();">
+                    </select><span id="subskill1condcheck"></span><br>
+                    <span>サブスキル2</span>
+                    <select id="subskill2" style="font-size: smaller;width:50%;font-family: mtdfont;" onchange="allDPS();">
+                    </select><span id="subskill2condcheck"></span>
+                </div>
+                <div id="conditions" class="dps-input-tablink-content dps-tabcontent" style="display: none;">
+                    <script src="../../scripts/insert-scripts/insertShared.js"></script>
+                    <hr>
+                    <script src="../../scripts/insert-scripts/insertCharaSpecific.js"></script>
+                    <hr>
+                    <script src="../../scripts/insert-scripts/insertParty.js"></script><br>
+                    <script src="../../scripts/insert-scripts/insertDivine.js"></script><br>
+                    <script src="../../scripts/insert-scripts/insertSupporter.js"></script><br>
+                    <script src="../../scripts/insert-scripts/insertOtherPassive.js"></script><br>
+                    <script src="../../scripts/insert-scripts/insertOtherSkill.js"></script><br>
+                    <script src="../../scripts/insert-scripts/insertExtraBuffs.js"></script>
+                </div>
+                <div id="enemyunit" class="dps-input-tablink-content dps-tabcontent" style="display: none;">
+                    <div>
+                        <span>物理防御：</span><input id="input-enemy-pDef" type="number" min="0" max="99999" value="0" onchange="allDPS();">
+                        <span> 魔法防御：</span><input id="input-enemy-mDef" type="number" min="0" max="99999" value="0" onchange="allDPS();"><br>
+                        <span> 敵のダメージ軽減率：</span><input id="input-enemy-dmgRed" type="number" min="0" max="100" value="0" onchange="allDPS();" style="width:15%"><span> %</span><br>
+                        <hr>
+                        <span> ブロックしている敵：</span><input id="input-number-blocked" type="number" min="0" max="99" value="0" onchange="updateBlockCount();allDPS();" style="width:15%"><br>
+                        <span> 範囲内にいる敵：</span><input id="input-number-inRange" type="number" min="0" max="99" value="0" onchange="allDPS();" style="width:15%">
+                    </div>
+                </div>
+            </div>
+            <div style="width: 2px;"></div>
+            <div id="dps-dps">
+                <div id="dps-dps-stats">
+                    <div class="dps-tabs dps-dps-stats-tabs">
+                        <button class="dps-dps-stats-tablink active" style="border-top-left-radius: 15px;" onclick="openTab(event, 'dps-all','dps-dps-stats-tablink')"><img src="../../img/ui-icons/BattleResult_ImageVictoryLogoStar.png"> DPS(総合)</button>
+                        <button class="dps-dps-stats-tablink" onclick="openTab(event, 'dps-normal','dps-dps-stats-tablink')"><img src="../../img/ui-icons/Footer_ImageAdventureIcon.png"> 非スキル</button>
+                        <button class="dps-dps-stats-tablink" style="border-top-right-radius: 15px;" onclick="openTab(event, 'dps-skill','dps-dps-stats-tablink')"><img src="../../img/ui-icons/Btl_SkillNotice_Skill.png"> スキル</button>
+                    </div>
+                    <div id="dps-all" class="dps-dps-stats-tablink-content dps-tabcontent">
+                        <table>
+                            <tr>
+                                <td colspan="99" style="background-color:#bffcff;border:2px solid #efdfb0;">
+                                    <table>
+                                        <tr style="font-size: 2vw;">
+                                            <td class="displaytext">総合DPS：</td>
+                                            <td id="dps-all-final">88888</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="displaytext">攻撃：</td>
+                                            <td id="dps-all-final">88888</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="displaytext">継続ダメージ：</td>
+                                            <td id="dps-all-final">88888</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">攻撃対象数1</td>
+                                <td>88</td>
+                                <td class="displaytext">確率1</td>
+                                <td>0.88</td>
+                                <td class="displaytext">スキル(秒)</td>
+                                <td>8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">攻撃対象数2</td>
+                                <td>88</td>
+                                <td class="displaytext">確率2</td>
+                                <td>0.88</td>
+                                <td class="displaytext">非スキル(秒)</td>
+                                <td>8888</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="dps-normal" class="dps-dps-stats-tablink-content dps-tabcontent" style="display: none;">
+                        dps normal
+                    </div>
+                    <div id="dps-skill" class="dps-dps-stats-tablink-content dps-tabcontent" style="display: none;">
+                        dps skill
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="dps-output-info" style="display:flex;">
+            <div id="dps-output">
+                <div id="dps-output-stats">
+                    <div class="dps-tabs dps-output-stats-tabs">
+                        <button class="dps-output-stats-tablink active" style="border-top-left-radius: 15px;" onclick="openTab(event, 'stats-menu','dps-output-stats-tablink')"><img src="../../img/ui-icons/Footer_ImageNurturingIcon.png"> 基本</button>
+                        <button class="dps-output-stats-tablink" onclick="openTab(event, 'stats-battle','dps-output-stats-tablink')"><img src="../../img/ui-icons/Footer_ImageOrganizationIcon.png"> バトル</button>
+                        <button class="dps-output-stats-tablink" style="border-top-right-radius: 15px;" onclick="openTab(event, 'stats-skill','dps-output-stats-tablink')"><img src="../../img/ui-icons/Btl_SkillNotice_Skill.png"> スキル</button>
+                    </div>
+                    <div id="stats-menu" class="dps-output-stats-tablink-content dps-tabcontent">
+                        <table>
+                            <tr>
+                                <td class="displaytext" style="width:25%;" rowspan="2">
+                                    <img class="chara-icon" src="../../img/chara-icons/icon_10106_0.png">
+                                </td>
+                                <td id="dps-output-menu-trait-text" style="width: 75%;height: 50%;" colspan="99">s das das das das das das ad as das </td>
+                            </tr>
+                            <tr>
+                                <td id="dps-output-menu-skill-text" style="width: 75%;height: 50%;" colspan="99">asasd as dasd as das das dddasd a  asd asd a ad</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td rowspan="4" id="type-icons" style="width: 10%; background-color:#99ffbe;border:2px solid #efdfb0;padding-top: 2%;">
+                                    <abbr title="水属性" style="cursor: help;"><img src="../../img/ui-icons/Icon_Type_3.png"></abbr>
+                                    <abbr title="ガーディアン(剣盾)" style="cursor: help;"><img src="../../img/ui-icons/Icon_Job_12011.png"></abbr>
+                                    <abbr title="近接" style="cursor: help;"><img src="../../img/ui-icons/Summon_Type_1.png"></abbr>
+                                </td>
+                                <td class="displaytext">HP</td>
+                                <td id="dps-output-menu-value-HP">8888</td>
+                                <td class="displaytext">攻撃力</td>
+                                <td id="dps-output-menu-value-Atk">8888</td>
+                                <td class="displaytext">攻撃速度</td>
+                                <td id="dps-output-menu-value-aSpd">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">物理防御</td>
+                                <td id="dps-output-menu-value-pDef">8888</td>
+                                <td class="displaytext">魔法防御</td>
+                                <td id="dps-output-menu-value-mDef">8888</td>
+                                <td class="displaytext">攻撃硬直</td>
+                                <td id="dps-output-menu-value-PAD">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">射程</td>
+                                <td id="dps-output-menu-value-Range">8888</td>
+                                <td class="displaytext">ブロック数</td>
+                                <td id="dps-output-menu-value-Block">8</td>
+                                <td class="displaytext">攻撃回数</td>
+                                <td>8</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="stats-battle" class="dps-output-stats-tablink-content dps-tabcontent" style="display: none;">
+                        <table>
+                            <tr>
+                                <td class="displaytext" style="width:25%;" rowspan="2">
+                                    <img class="chara-icon" src="../../img/chara-icons/icon_10106_0.png">
+                                </td>
+                                <td id="dps-output-battle-trait-text" style="width: 75%;height: 50%;" colspan="99">s das das das das das das ad as das </td>
+                            </tr>
+                            <tr>
+                                <td id="dps-output-battle-skill-text" style="width: 75%;height: 50%;" colspan="99">asasd as dasd as das das dddasd a  asd asd a ad</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td rowspan="4" id="type-icons" style="width: 10%; background-color:#99ffbe;border:2px solid #efdfb0;padding-top: 2%;">
+                                    <abbr title="水属性" style="cursor: help;"><img src="../../img/ui-icons/Icon_Type_3.png"></abbr>
+                                    <abbr title="ガーディアン(剣盾)" style="cursor: help;"><img src="../../img/ui-icons/Icon_Job_12011.png"></abbr>
+                                    <abbr title="近接" style="cursor: help;"><img src="../../img/ui-icons/Summon_Type_1.png"></abbr>
+                                </td>
+                                <td class="displaytext">HP</td>
+                                <td id="dps-output-battle-value-HP">8888</td>
+                                <td class="displaytext">攻撃力</td>
+                                <td id="dps-output-battle-value-Atk">8888</td>
+                                <td class="displaytext">攻撃速度</td>
+                                <td id="dps-output-battle-value-aSpd">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">物理防御</td>
+                                <td id="dps-output-battle-value-pDef">8888</td>
+                                <td class="displaytext">魔法防御</td>
+                                <td id="dps-output-battle-value-mDef">8888</td>
+                                <td class="displaytext">攻撃硬直</td>
+                                <td id="dps-output-battle-value-PAD">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">射程</td>
+                                <td id="dps-output-battle-value-Range">8888</td>
+                                <td class="displaytext">ブロック数</td>
+                                <td id="dps-output-battle-value-Block">8</td>
+                                <td class="displaytext">攻撃回数</td>
+                                <td>8</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="stats-skill" class="dps-output-stats-tablink-content dps-tabcontent" style="display: none;">
+                        <table>
+                            <tr>
+                                <td class="displaytext" style="width:25%;" rowspan="2">
+                                    <img class="chara-icon" src="../../img/chara-icons/icon_10106_0.png">
+                                </td>
+                                <td id="dps-output-skill-trait-text" style="width: 75%;height: 50%;" colspan="99">s das das das das das das ad as das </td>
+                            </tr>
+                            <tr>
+                                <td id="dps-output-skill-skill-text" style="width: 75%;height: 50%;" colspan="99">asasd as dasd as das das dddasd a  asd asd a ad</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td rowspan="4" id="type-icons" style="width: 10%; background-color:#99ffbe;border:2px solid #efdfb0;padding-top: 2%;">
+                                    <abbr title="水属性" style="cursor: help;"><img src="../../img/ui-icons/Icon_Type_3.png"></abbr>
+                                    <abbr title="ガーディアン(剣盾)" style="cursor: help;"><img src="../../img/ui-icons/Icon_Job_12011.png"></abbr>
+                                    <abbr title="近接" style="cursor: help;"><img src="../../img/ui-icons/Summon_Type_1.png"></abbr>
+                                </td>
+                                <td class="displaytext">HP</td>
+                                <td id="dps-output-skill-value-HP">8888</td>
+                                <td class="displaytext">攻撃力</td>
+                                <td id="dps-output-skill-value-Atk">8888</td>
+                                <td class="displaytext">攻撃速度</td>
+                                <td id="dps-output-skill-value-aSpd">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">物理防御</td>
+                                <td id="dps-output-skill-value-pDef">8888</td>
+                                <td class="displaytext">魔法防御</td>
+                                <td id="dps-output-skill-value-mDef">8888</td>
+                                <td class="displaytext">攻撃硬直</td>
+                                <td id="dps-output-skill-value-PAD">8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">射程</td>
+                                <td id="dps-output-skill-value-Range">8888</td>
+                                <td class="displaytext">ブロック数</td>
+                                <td id="dps-output-skill-value-Block">8</td>
+                                <td class="displaytext">攻撃回数</td>
+                                <td>8</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 2px;"></div>
+            <div id="dps-info">
+                <div id="dps-info-stats">
+                    <div class="dps-tabs dps-info-stats-tabs">
+                        <button class="dps-info-stats-tablink active" style="border-top-left-radius: 15px;" onclick="openTab(event, 'info-main','dps-info-stats-tablink')"><img src="../../img/ui-icons/Friend_ImageiconProfile.png"> ユニット</button>
+                        <button class="dps-info-stats-tablink" onclick="openTab(event, 'info-nerd','dps-info-stats-tablink')"><img src="../../img/ui-icons/Footer_ImageAdventureIcon.png"> 条件</button>
+                        <button class="dps-info-stats-tablink" style="border-top-right-radius: 15px;" onclick="openTab(event, 'info-misc','dps-info-stats-tablink')"><img src="../../img/ui-icons/Btl_OmenIcon_0.png"> 敵ユニット</button>
+                    </div>
+                    <div id="info-main" class="dps-info-stats-tablink-content dps-tabcontent">
+                        <table>
+                            <tr>
+                                <td class="displaytext" style="width:25%;" rowspan="2">
+                                    f
+                                </td>
+                                <td style="width: 75%;height: 50%;" colspan="99">s das das das das das das ad as das </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 75%;height: 50%;" colspan="99">asasd as dasd as das das dddasd a  asd asd a ad</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td rowspan="4" id="type-icons" style="width: 10%;">
+                                    <abbr title="水属性" style="cursor: help;"><img src="../../img/ui-icons/Icon_Type_3.png"></abbr>
+                                    <abbr title="ガーディアン(剣盾)" style="cursor: help;"><img src="../../img/ui-icons/Icon_Job_12011.png"></abbr>
+                                    <abbr title="近接" style="cursor: help;"><img src="../../img/ui-icons/Summon_Type_1.png"></abbr>
+                                </td>
+                                <td class="displaytext">HP</td>
+                                <td>8888</td>
+                                <td class="displaytext">攻撃力</td>
+                                <td>8888</td>
+                                <td class="displaytext">攻撃速度</td>
+                                <td>8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">物理防御</td>
+                                <td>8888</td>
+                                <td class="displaytext">魔法防御</td>
+                                <td>8888</td>
+                                <td class="displaytext">攻撃硬直</td>
+                                <td>8888</td>
+                            </tr>
+                            <tr>
+                                <td class="displaytext">攻撃タイプ</td>
+                                <td>物理</td>
+                                <td class="displaytext">攻撃対象数</td>
+                                <td>8</td>
+                                <td class="displaytext">攻撃回数</td>
+                                <td>8</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="info-nerd" class="dps-info-stats-tablink-content dps-tabcontent" style="display: none;">
+                        info nerd
+                    </div>
+                    <div id="info-misc" class="dps-info-stats-tablink-content dps-tabcontent" style="display: none;">
+                        info misc
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="github-link" style="width: 100%; overflow:hidden;">
+            c
+            <p style="font-size:x-small;">Issues or bug reports? Project on <a href="https://github.com/natsumi3hara/monmusutd-dps">Github</a>.</p>
+        </div>
+    </body>
+    <script>
+        //scripts to load html stuff, no calculations//
+        var coll = document.getElementsByClassName("collapsible-button");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("collActive");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        function openTab(evt, tabName, linktype) {
+            var i, tabcontent, tablinks;
+            // Get all elements with class="something" and hide them
+            tabcontent = document.getElementsByClassName(linktype+"-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            // Get all elements with class=linktype and remove the class "active"
+            tablinks = document.getElementsByClassName(linktype);
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</html>

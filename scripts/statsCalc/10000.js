@@ -1,26 +1,26 @@
 var equip = {
     "0":[
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0}
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0}
     ],
     "1":[
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0}
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0}
     ],
     "2":[
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0}
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0}
     ],
     "3":[
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0},
-        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0}
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0},
+        {"HP":0,"Atk":0,"pDef":0,"mDef":0,"aSpd":0,"Range":0,"PAD":0,"Block":0}
     ]
 }
