@@ -1,7 +1,8 @@
-# monmusutd-dps
+# monmusutd-drops
 ## General
 This project was originally started as a DPS calculator for the browser game Monster Musume Tower Defense (MTD)
 However, due to the complexity of the equations, other tools started first.
+The dps calculator will likely be in another repository.
 
 ## Currently available tools
 * [Characters (WIP)](#characters)
